@@ -1,0 +1,388 @@
+/* ------ Priorities ------ */
+.menu li.data-centers {
+	background: #006990;
+}
+.menu li.data-centers a:active, .menu li.data-centers:hover {
+	background: #00436a;
+}
+.menu li.digital-workspace {
+	background: #387c2c;
+}
+.menu li.digital-workspace a:active, .menu li.digital-workspace:hover {
+	background: #125606;
+}
+.menu li.public-cloud {
+	background: #f38b00;
+}
+.menu li.public-cloud a:active, .menu li.public-cloud:hover {
+	background: #cd6500;
+}
+.menu li.security {
+	background: #9e3039;
+}
+.menu li.security a:active, .menu li.security:hover {
+	background: #780a13;
+}
+.menu li.vmworld {
+	background: #0095d3;
+	color: #ffffff;
+}
+.menu li.vmworld a:active, .menu li.vmworld:hover {
+	background: #006fad;
+}
+.priority-vmworld a,
+.priority-vmworld h4.sectionTitle a {
+	color: #0095d3;
+}
+.priority-vmworld a:active, .priority-vmworld a:hover {
+	color: #006fad;
+}
+.priority-vmworld a.button {
+	background: #0095d3;
+	color: #ffffff;
+}
+.priority-vmworld a.button:active, .priority-vmworld a.button:hover {
+	background: #006fad;
+	color: #ffffff;
+}
+.priority-data-centers a,
+.priority-data-centers h4.sectionTitle a {
+	color: #006990;
+}
+.priority-data-centers a:active, .priority-data-centers a:hover {
+	color: #00436a;
+}
+.priority-digital-workspace a,
+.priority-digital-workspace h4.sectionTitle a {
+	color: #387c2c;
+}
+.priority-digital-workspace a:active, .priority-digital-workspace a:hover {
+	color: #125606;
+}
+.priority-public-cloud a,
+.priority-public-cloud h4.sectionTitle a {
+	color: #f38b00;
+}
+.priority-public-cloud a:active, .priority-public-cloud a:hover {
+	color: #cd6500;
+}
+.priority-security a,
+.priority-security h4.sectionTitle a{
+	color: #9e3039;
+}
+.priority-security a:active, .priority-security a:hover {
+	color: #780a13;
+}
+.priority-centres-de-donnees a.button,
+.priority-data-centers a.button {
+	background: #006990;
+	color: #ffffff;
+}
+.priority-data-centers a.button:active, .priority-data-centers a.button:hover {
+	background: #00436a;
+	color: #ffffff;
+}
+.priority-digital-workspace a.button {
+	background: #387c2c;
+	color: #ffffff;
+}
+.priority-digital-workspace a.button:active, .priority-digital-workspace a.button:hover {
+	background: #125606;
+	color: #ffffff;
+}
+.priority-public-cloud a.button {
+	background: #f38b00;
+	color: #ffffff;
+}
+.priority-public-cloud a.button:active, .priority-public-cloud a.button:hover {
+	background: #cd6500;
+	color: #ffffff;
+}
+.priority-security a.button {
+	background: #9e3039;
+	color: #ffffff;
+}
+.priority-security a.button:active, .priority-security a.button:hover {
+	background: #780a13;
+	color: #ffffff;
+}
+.single.digital-workspace h4.sectionTitle {
+	color: #387c2c;
+}
+.single.digital-workspace h4.sectionTitle:after {
+	border-top: 1px solid #387c2c;
+}
+.single.public-cloud h4.sectionTitle {
+	color: #f38b00;
+}
+.single.public-cloud h4.sectionTitle:after {
+	border-top: 1px solid #f38b00;
+}
+.single.data-centers h4.sectionTitle {
+	color: #006990;
+}
+.single.data-centers h4.sectionTitle:after {
+	border-top: 1px solid #006990;
+}
+.single.security h4.sectionTitle {
+	color: #9e3039;
+}
+.single.security h4.sectionTitle:after {
+	border-top: 1px solid #9e3039;
+}
+.single.vmworld h4.sectionTitle {
+	color: #0095d3;
+}
+.single.vmworld  h4.sectionTitle:after {
+	border-top: 1px solid #0095d3;
+}
+.priority-vmworld .postContent h4.entry-title {
+	border-color: #0095d3;
+}
+.priority-vmworld .postContent h4.entry-title:before {
+	background: #0095d3;
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #006fad), color-stop(50%, #006fad), color-stop(50%, #0095d3), color-stop(100%, #0095d3));
+	background: linear-gradient(135deg, #006fad 0%, #006fad 50%, #0095d3 50%, #0095d3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006fad', endColorstr='#0095d3', GradientType=1 );
+}
+.priority-digital-workspace .postContent h4.entry-title {
+	border-color: #387c2c;
+}
+.priority-digital-workspace .postContent h4.entry-title:before {
+	background: #125606;
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #125606), color-stop(50%, #125606), color-stop(50%, #387c2c), color-stop(100%, #387c2c));
+	background: linear-gradient(135deg, #125606 0%, #125606 50%, #387c2c 50%, #387c2c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#387c2c', endColorstr='#125606', GradientType=1 );
+}
+.priority-data-centers .postContent h4.entry-title {
+	border-color: #006990;
+}
+.priority-data-centers .postContent h4.entry-title:before {
+	background: #00436a;
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #00436a), color-stop(50%, #00436a), color-stop(50%, #006990), color-stop(100%, #006990));
+	background: linear-gradient(135deg, #00436a 0%, #00436a 50%, #006990 50%, #006990 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006990', endColorstr='#00436a', GradientType=1 );
+}
+.priority-public-cloud .postContent h4.entry-title {
+	border-color: #f38b00;
+}
+.priority-public-cloud .postContent h4.entry-title:before {
+	background: #cd6500;
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #cd6500), color-stop(50%, #cd6500), color-stop(50%, #f38b00), color-stop(100%, #f38b00));
+	background: linear-gradient(135deg, #cd6500 0%, #cd6500 50%, #f38b00 50%, #f38b00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f38b00', endColorstr='#cd6500', GradientType=1 );
+}
+.priority-security .postContent h4.entry-title {
+	border-color: #9e3039;
+}
+.priority-security .postContent h4.entry-title:before {
+	background: #780a13;
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #780a13), color-stop(50%, #780a13), color-stop(50%, #9e3039), color-stop(100%, #9e3039));
+	background: linear-gradient(135deg, #780a13 0%, #780a13 50%, #9e3039 50%, #9e3039 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f38b00', endColorstr='#cd6500', GradientType=1 );
+}
+.digital-workspace hr,
+.priority-digital-workspace hr {
+	background-color: #387c2c;
+}
+.data-centers hr,
+.priority-data-centers hr {
+	background-color: #006990;
+}
+.public-cloud hr,
+.priority-public-cloud hr {
+	background-color: #f38b00;
+}
+.security hr,
+.priority-security hr {
+	background-color: #9e3039;
+}
+.vmworld hr,
+.priority-vmworld hr {
+	background-color: #0095d3;
+}
+.explore.vmworld {
+	background-color: #0095d3;
+	color: #ffffff;
+}
+.explore.vmworld:hover {
+	background-color: #006fad;
+	color: #ffffff;
+	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+	        box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+.explore.data-centers {
+	background-color: #006990;
+	color: #ffffff;
+}
+.explore.digital-workspace {
+	background-color: #387c2c;
+	color: #ffffff;
+}
+.explore.public-cloud {
+	background-color: #f38b00;
+	color: #ffffff;
+}
+.explore.security {
+	background-color: #9e3039;
+	color: #ffffff;
+}
+.explore.data-centers:hover {
+	background-color: #00436a;
+	color: #ffffff;
+	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+	        box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+.explore.digital-workspace:hover {
+	background-color: #125606;
+	color: #ffffff;
+	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+	        box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+.explore.public-cloud:hover {
+	background-color: #cd6500;
+	color: #ffffff;
+	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+	        box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+.explore.security:hover {
+	background-color: #780a13;
+	color: #ffffff;
+	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+	        box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+.single .post.priority-vmworld header {
+	background: #0095d3;
+}
+.single .post.priority-public-cloud header {
+	background: #f38b00;
+}
+.single .post.priority-data-centers header {
+	background: #006990;
+}
+.single .post.priority-digital-workspace header {
+	background: #387c2c;
+}
+.single .post.priority-security header {
+	background: #9e3039;
+}
+.data-centers .comments-area a {
+	color: #006990;
+}
+.data-centers .comments-area a:active, .data-centers .comments-area a:hover {
+	color: #00436a;
+}
+.vmworld .comments-area a {
+	color: #0095d3;
+}
+.vmworld .comments-area a:active, .vmworld .comments-area a:hover {
+	color: #006fad;
+}
+.digital-workspace .comments-area a {
+	color: #387c2c;
+}
+.digital-workspace .comments-area a:active, .digital-workspace .comments-area a:hover {
+	color: #125606;
+}
+.public-cloud .comments-area a {
+	color: #f38b00;
+}
+.public-cloud .comments-area a:active, .public-cloud .comments-area a:hover {
+	color: #cd6500;
+}
+.security .comments-area a {
+	color: #9e3039;
+}
+.security .comments-area a:active, .security .comments-area a:hover {
+	color: #780a13;
+}
+.vmworld .comments-area .button {
+	background: #0095d3;
+}
+.vmworld .comments-area .button:active, .vmworld .comments-area .button:hover {
+	background: #006fad;
+}
+.data-centers .comments-area .button {
+	background: #006990;
+	color: #ffffff;
+}
+.data-centers .comments-area .button:active, .data-centers .comments-area .button:hover {
+	background: #00436a;
+	color: #ffffff;
+}
+.digital-workspace .comments-area .button {
+	background: #387c2c;
+	color: #ffffff;
+}
+.digital-workspace .comments-area .button:active, .digital-workspace .comments-area .button:hover {
+	background: #125606;
+	color: #ffffff;
+}
+.public-cloud .comments-area .button {
+	background: #f38b00;
+	color: #ffffff;
+}
+.public-cloud .comments-area .button:active, .public-cloud .comments-area .button:hover {
+	background: #cd6500;
+	color: #ffffff;
+}
+.security .comments-area .button {
+	background: #9e3039;
+	color: #ffffff;
+}
+.security .comments-area .button:active, .security .comments-area .button:hover {
+	background: #780a13;
+	color: #ffffff;
+}
+.sitemap h4.data-centers {
+	background: #006990;
+	padding: 0 4px;
+	padding: 0 0.25rem;
+	color: #ffffff;
+}
+.sitemap h4.digital-workspace {
+	background: #387c2c;
+	padding: 0 4px;
+	padding: 0 0.25rem;
+	color: #ffffff;
+}
+.sitemap h4.public-cloud {
+	background: #f38b00;
+	padding: 0 4px;
+	padding: 0 0.25rem;
+	color: #ffffff;
+}
+.sitemap h4.security {
+	background: #9e3039;
+	padding: 0 4px;
+	padding: 0 0.25rem;
+	color: #ffffff;
+}
+.sitemap h4.vmworld {
+	background: #0095d3;
+	padding: 0 4px;
+	padding: 0 0.25rem;
+	color: #ffffff;
+}
+.postThumbnail img {
+	-webkit-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+}
+.shadow:hover .postThumbnail img {
+
+}
+.priority-data-centers .postThumbnail {
+	background: #006990 !important;
+}
+.priority-digital-workspace .postThumbnail {
+	background: #387c2c !important;
+}
+.priority-public-cloud .postThumbnail {
+	background: #f38b00 !important;
+}
+.priority-security .postThumbnail {
+	background: #9e3039 !important;
+}
+.priority-vmworld .postThumbnail {
+	background: #0095d3 !important;
+}

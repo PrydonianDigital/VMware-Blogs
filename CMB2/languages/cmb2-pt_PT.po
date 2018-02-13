@@ -340,8 +340,7 @@ msgstr "Remover incorporação"
 #: includes/CMB2_Ajax.php:181 includes/helper-functions.php:95
 #: tests/cmb-tests-base.php:68
 #, php-format
-msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
-msgstr ""
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."msgstr ""
 "Nenhum resultado de oEmbed encontrado para %1$s. Ver mais informações em "
 "%2$s."
 

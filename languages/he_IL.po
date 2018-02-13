@@ -1,0 +1,1238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VMware Blogs\n"
+"POT-Creation-Date: 2018-02-12 12:24+0000\n"
+"PO-Revision-Date: 2018-02-12 16:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr "שגיאה 404 - הדף לא נמצא"
+
+#: 404.php:37
+msgid "Sorry, the page you requested was not found."
+msgstr "העמוד שביקשתם לא נמצא."
+
+#: 404.php:39
+msgid "If you're having trouble locating a destination on "
+msgstr ""
+
+#: 404.php:39
+msgid ""
+", try visiting the home page, using the menu at the top, or use the search "
+"bar above."
+msgstr ""
+
+#: CMB2/includes/CMB2.php:178
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr "הגדרת תיבת המטא נדרשת כדי לקבל פרמטר זיהוי"
+
+#: CMB2/includes/CMB2.php:580
+msgid "Click to toggle"
+msgstr "התחבר"
+
+#: CMB2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr "יש לנסות שוב"
+
+#: CMB2/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr "הסר הטמעה"
+
+#: CMB2/includes/CMB2_Ajax.php:189 CMB2/includes/helper-functions.php:105
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:422
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favour of the \"%1$s\" "
+"parameter."
+msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:426
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favour of the \"%1$s\" parameter."
+msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:456
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+"%1$s הוא <strong>בשימוש</strong> מאז גירסה %2$s! במקום זאת, השתמש %3$s."
+
+#: CMB2/includes/CMB2_Base.php:458
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:491 CMB2/includes/CMB2_Hookup_Base.php:100
+#: CMB2/includes/CMB2_Options_Hookup.php:336
+#: CMB2/includes/types/CMB2_Type_Base.php:149
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr "%1$s: %2$s"
+
+#: CMB2/includes/CMB2_Base.php:506 CMB2/includes/types/CMB2_Type_Base.php:133
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr "%1$s: %2$s"
+
+#: CMB2/includes/CMB2_Field.php:1228
+msgid "Add Group"
+msgstr "הוסף קבוצה"
+
+#: CMB2/includes/CMB2_Field.php:1229
+msgid "Remove Group"
+msgstr "הסרת קבוצה"
+
+#: CMB2/includes/CMB2_Field.php:1260 CMB2/includes/CMB2_Field.php:1264
+msgid "None"
+msgstr "ללא"
+
+#: CMB2/includes/CMB2_Field.php:1375
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr "(לפוסט זה אין כותרת)"
+
+#: CMB2/includes/CMB2_Field_Display.php:432 CMB2/includes/CMB2_JS.php:204
+#: CMB2/includes/types/CMB2_Type_File_Base.php:79
+msgid "File:"
+msgstr "קובץ:"
+
+#: CMB2/includes/CMB2_Hookup_Base.php:42
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: CMB2/includes/CMB2_JS.php:143 CMB2/includes/CMB2_JS.php:184
+msgid "Clear"
+msgstr "ניקוי"
+
+#: CMB2/includes/CMB2_JS.php:144
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: CMB2/includes/CMB2_JS.php:145
+msgid "Select Color"
+msgstr "בחירת צבע"
+
+#: CMB2/includes/CMB2_JS.php:146
+msgid "Current Color"
+msgstr "צבע נוכחי"
+
+#: CMB2/includes/CMB2_JS.php:174
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "yyyy-mm-dd"
+
+#: CMB2/includes/CMB2_JS.php:175
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "ראשון, שני, שלישי, רביעי, חמישי, שישי ושבת"
+
+#: CMB2/includes/CMB2_JS.php:176
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "רא, שנ, של, רב, חמ, שי, שב"
+
+#: CMB2/includes/CMB2_JS.php:177
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "ראש, שני, שלי, רבי, חמי, שיש, שבת"
+
+#: CMB2/includes/CMB2_JS.php:178
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+"ינואר, פברואר, מרץ, אפריל, מאי, יוני, יולי, אוגוסט, ספטמבר, אוקטובר, נובמבר, "
+"דצמבר"
+
+#: CMB2/includes/CMB2_JS.php:179
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr "ינו, פבר, מרץ, אפר, מאי, יונ, יול, אוג, ספט, אוק, נוב, דצמ"
+
+#: CMB2/includes/CMB2_JS.php:180 functions/theme.php:225
+msgid "Next"
+msgstr "הבא"
+
+#: CMB2/includes/CMB2_JS.php:181
+msgid "Prev"
+msgstr "הקודם"
+
+#: CMB2/includes/CMB2_JS.php:182
+msgid "Today"
+msgstr "היום"
+
+#: CMB2/includes/CMB2_JS.php:183 CMB2/includes/CMB2_JS.php:193
+msgid "Done"
+msgstr "בוצע!"
+
+#: CMB2/includes/CMB2_JS.php:187
+msgid "Choose Time"
+msgstr "לבחור זמן"
+
+#: CMB2/includes/CMB2_JS.php:188
+msgid "Time"
+msgstr "שעה"
+
+#: CMB2/includes/CMB2_JS.php:189
+msgid "Hour"
+msgstr "שעה"
+
+#: CMB2/includes/CMB2_JS.php:190
+msgid "Minute"
+msgstr "דקה"
+
+#: CMB2/includes/CMB2_JS.php:191
+msgid "Second"
+msgstr "שנ'"
+
+#: CMB2/includes/CMB2_JS.php:192
+msgid "Now"
+msgstr "עכשיו"
+
+#: CMB2/includes/CMB2_JS.php:194
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr "yyyy-mm-dd"
+
+#: CMB2/includes/CMB2_JS.php:200
+msgid "Use this file"
+msgstr "להשתמש בקובץ זה"
+
+#: CMB2/includes/CMB2_JS.php:201
+msgid "Use these files"
+msgstr "השתמש בקבצים אלו"
+
+#: CMB2/includes/CMB2_JS.php:202 CMB2/includes/types/CMB2_Type_File_Base.php:64
+msgid "Remove Image"
+msgstr "הסרת התמונה"
+
+#: CMB2/includes/CMB2_JS.php:203 CMB2/includes/CMB2_Types.php:412
+#: CMB2/includes/types/CMB2_Type_File_Base.php:84
+msgid "Remove"
+msgstr "הסר"
+
+#: CMB2/includes/CMB2_JS.php:205 CMB2/includes/types/CMB2_Type_File_Base.php:82
+msgid "Download"
+msgstr "הורדה"
+
+#: CMB2/includes/CMB2_JS.php:206
+msgid "Select / Deselect All"
+msgstr "בחר הכל / הסר בחירה מהכל"
+
+#: CMB2/includes/CMB2_Options_Hookup.php:126
+msgid "Nothing to update."
+msgstr "שום דבר להסרה."
+
+#: CMB2/includes/CMB2_Options_Hookup.php:130
+msgid "Settings updated."
+msgstr "ההגדרות עודכנו."
+
+#: CMB2/includes/CMB2_Types.php:231
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: CMB2/includes/CMB2_Types.php:349
+msgid "Add Row"
+msgstr "הוספת שורה"
+
+#: CMB2/includes/CMB2_Types.php:412
+msgid "Remove Row"
+msgstr "הסרת השורה"
+
+#: CMB2/includes/CMB2_hookup.php:181
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+"מצטערים, לוח האירועים דורש וורדפרס %s או גבוה יותר. יש לשדרג את התקנת "
+"הוורדפרס."
+
+#: CMB2/includes/CMB2_hookup.php:185
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: CMB2/includes/CMB2_hookup.php:458
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: CMB2/includes/helper-functions.php:303
+msgid "Save"
+msgstr "שמור"
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr "אין ספאם בטופס זה"
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr "אין לך הרשאות כתיבה לקובץ זה."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr "הכנס כאן את שם ספק החיפוש"
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr "ה-ID של המשאב האב."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr "הזן את הכותרת לשדה."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr "תוצאות מתאימות"
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr "לא נמצאו פוסטים משויכים"
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#: CMB2/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr "שיטה (פונקציה) '%s' לא יושמה/הוגדרה. יש להגדיר אותו בתוך תת-קלאס."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:35
+#: CMB2/includes/shim/WP_REST_Controller.php:47
+#: CMB2/includes/shim/WP_REST_Controller.php:59
+#: CMB2/includes/shim/WP_REST_Controller.php:71
+#: CMB2/includes/shim/WP_REST_Controller.php:83
+#: CMB2/includes/shim/WP_REST_Controller.php:95
+#: CMB2/includes/shim/WP_REST_Controller.php:107
+#: CMB2/includes/shim/WP_REST_Controller.php:119
+#: CMB2/includes/shim/WP_REST_Controller.php:131
+#: CMB2/includes/shim/WP_REST_Controller.php:143
+#: CMB2/includes/shim/WP_REST_Controller.php:155
+#: CMB2/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr "שיטה (פונקציה) '%s' לא יושמה/הוגדרה. יש להגדיר אותו בתוך תת-קלאס."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr "העמוד שביקשתם לא נמצא."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr "המספר המרבי של פוד־ קסטים לשמירה"
+
+#: CMB2/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr "הגבלת תוצאות לאלה עם מספר האב המסויים."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr "הוא השלב שבו מוגשת הבקשה...."
+
+#: CMB2/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr "להוסיף או להעלות קובץ"
+
+#: CMB2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr "להוסיף או להעלות קבצים"
+
+#: CMB2/includes/types/CMB2_Type_Taxonomy_Base.php:100
+msgid "No terms"
+msgstr "אין ביטויים"
+
+#: comments.php:10
+msgid "Comments"
+msgstr "תגובות"
+
+#: comments.php:33 parts/global/comments-template.php:36
+msgid "Comment navigation"
+msgstr "ניווט תגובות"
+
+#: comments.php:34 parts/global/comments-template.php:37
+msgid "&larr; Older Comments"
+msgstr "&larr;  תגובות קודמות"
+
+#: comments.php:35 parts/global/comments-template.php:38
+msgid "Newer Comments &rarr;"
+msgstr "תגובות חדשות יותר &rarr;"
+
+#: comments.php:42 parts/global/comments-template.php:43
+msgid "Comments are closed."
+msgstr "תגובות סגורות."
+
+#: comments.php:52
+msgid "No comments yet"
+msgstr "אין עדכונים עדיין"
+
+#: comments.php:68
+msgid "Add a comment"
+msgstr "הוספת תגובה"
+
+#: comments.php:86
+msgid "Comments are closed"
+msgstr "תיבת התגובות סגורה"
+
+#: emails/templates/partials/default-message.php:1
+msgid "Here you will see the email content that is normally sent in WordPress."
+msgstr "זהו התוכן הדואר אלקטרוני עבור ביטול תורים. כמה טוקנים שניתן להשתמש:"
+
+#: emails/templates/partials/default-message.php:2
+msgid ""
+"The email template is responsive an fully customizable. I hope you enjoy it!"
+msgstr ""
+
+#: emails/templates/partials/default-message.php:3
+#, php-format
+msgid ""
+"We would like to ask you a little favour. If you are happy with the plugin "
+"and can take a minute please <a href=\"%s\" target=\"_blank\">leave a nice "
+"review</a> on WordPress. It will be a tremendous help for us!"
+msgstr ""
+
+#: emails/templates/partials/default-message.php:6
+msgid ""
+"You can use any of these placeholders in your emails content or templates "
+"and they will be automatically replaced"
+msgstr ""
+
+#: footer.php:27 functions/menus.php:10
+msgid "Footer Menu"
+msgstr "תפרטי פוטר"
+
+#: footer.php:45
+msgid "Back to top of page"
+msgstr "חזרה למעלה"
+
+#: functions/menus.php:5 header.php:54 header.php:105
+msgid "Priorities Menu"
+msgstr ""
+
+#: functions/menus.php:6 header.php:40
+msgid "Language Menu"
+msgstr "תפריט שפות"
+
+#: functions/menus.php:7
+msgid "Top Icon Menu"
+msgstr "תפריט סמל העליון"
+
+#: functions/menus.php:8 page-my-account.php:34 template-my-account.php:40
+msgid "My Account"
+msgstr "החשבון שלי"
+
+#: functions/menus.php:9 header.php:125
+msgid "Social Media"
+msgstr "רשתות חברתיות"
+
+#: functions/menus.php:11
+msgid "Mobile Menu"
+msgstr "תפריט נייד"
+
+#: functions/menus.php:82
+msgid "Dashboard"
+msgstr "לוח בקרה"
+
+#: functions/menus.php:84
+msgid "Logout"
+msgstr "יציאה"
+
+#: functions/meta.php:8 functions/meta.php:15
+msgid "Language Direction"
+msgstr "שפה"
+
+#: functions/meta.php:18
+msgid "LTR"
+msgstr "‫LTR"
+
+#: functions/meta.php:19
+msgid "RTL"
+msgstr "‫RTL"
+
+#: functions/meta.php:30
+msgid "VMWorld Info"
+msgstr "מידע נוסף:"
+
+#: functions/meta.php:36
+msgid "Start Date Of Event"
+msgstr "תאריך ושעת התחלה של האירוע."
+
+#: functions/meta.php:42
+msgid "End Date Of Event"
+msgstr "תאריך סיום האירוע"
+
+#: functions/meta.php:48
+msgid "Location"
+msgstr "מיקום"
+
+#: functions/meta.php:53
+msgid "Ticket Link"
+msgstr "קישור קניית כרטיס"
+
+#: functions/meta.php:58
+msgid "Post Video"
+msgstr "רשימת סרטי וידאו"
+
+#: functions/meta.php:64
+msgid "URL of video"
+msgstr "כתובת סרטון וידאו"
+
+#: functions/meta.php:69
+msgid "Post White Paper"
+msgstr "ספר לבן"
+
+#: functions/meta.php:75
+msgid "White Paper Title"
+msgstr "ספר לבן"
+
+#: functions/meta.php:80
+msgid "White Paper Description"
+msgstr "ספר לבן"
+
+#: functions/meta.php:85
+msgid "White Paper Cover Image"
+msgstr "ספר לבן"
+
+#: functions/meta.php:90
+msgid "White Paper File"
+msgstr "ספר לבן"
+
+#: functions/meta.php:95
+msgid "Form"
+msgstr "טופסים"
+
+#: functions/meta.php:107
+msgid "Carousel Link"
+msgstr "קרוסלה"
+
+#: functions/meta.php:113
+msgid "Link URL"
+msgstr "כתובת URL של הקישור"
+
+#: functions/meta.php:118
+msgid "Slide Text"
+msgstr "שקופית"
+
+#: functions/meta.php:131
+msgid "User Profile"
+msgstr "פרופיל משתמש"
+
+#: functions/meta.php:137
+msgid "Extra Info"
+msgstr "מידע נוסף:"
+
+#: functions/meta.php:143 parts/my-account/edit-account.php:15
+msgid "Phone"
+msgstr "טלפון"
+
+#: functions/meta.php:148 parts/my-account/edit-account.php:19
+msgid "Company"
+msgstr "חברה"
+
+#: functions/meta.php:153 parts/my-account/edit-account.php:27
+msgid "Country"
+msgstr "ארץ"
+
+#: functions/post_types.php:7
+msgctxt "Carousel General Name"
+msgid "Carousels"
+msgstr "קרוסלה"
+
+#: functions/post_types.php:8
+msgctxt "Carousel Singular Name"
+msgid "Carousel"
+msgstr ""
+
+#: functions/post_types.php:9 functions/post_types.php:37
+msgid "Carousels"
+msgstr "קרוסלה"
+
+#: functions/post_types.php:10 functions/post_types.php:36
+msgid "Carousel"
+msgstr ""
+
+#: functions/post_types.php:11
+msgid "Carousel Archives"
+msgstr ""
+
+#: functions/post_types.php:12
+msgid "Carousel Attributes"
+msgstr ""
+
+#: functions/post_types.php:13
+msgid "Parent Carousel:"
+msgstr ""
+
+#: functions/post_types.php:14
+msgid "All Carousels"
+msgstr ""
+
+#: functions/post_types.php:15
+msgid "Add New Carousel"
+msgstr ""
+
+#: functions/post_types.php:16
+msgid "Add New"
+msgstr ""
+
+#: functions/post_types.php:17
+msgid "New Carousel"
+msgstr ""
+
+#: functions/post_types.php:18
+msgid "Edit Carousel"
+msgstr ""
+
+#: functions/post_types.php:19
+msgid "Update Carousel"
+msgstr ""
+
+#: functions/post_types.php:20
+msgid "View Carousel"
+msgstr ""
+
+#: functions/post_types.php:21
+msgid "View Carousels"
+msgstr ""
+
+#: functions/post_types.php:22
+msgid "Search Carousels"
+msgstr ""
+
+#: functions/post_types.php:23
+msgid "Not found"
+msgstr "לא נמצא"
+
+#: functions/post_types.php:24
+msgid "Not found in Trash"
+msgstr "לא נמצא בפח זבל"
+
+#: functions/post_types.php:25
+msgid "Featured Image"
+msgstr "תמונה מועדפת %s"
+
+#: functions/post_types.php:26
+msgid "Set featured image"
+msgstr "הגדר תמונה מייצגת"
+
+#: functions/post_types.php:27
+msgid "Remove featured image"
+msgstr "הסר תמונה מייצגת"
+
+#: functions/post_types.php:28
+msgid "Use as featured image"
+msgstr "השתמש כתמונה מייצגת"
+
+#: functions/post_types.php:29
+msgid "Insert into Carousel"
+msgstr ""
+
+#: functions/post_types.php:30
+msgid "Uploaded to this item"
+msgstr "הועלה לפריט זה"
+
+#: functions/post_types.php:31
+msgid "Carousels list"
+msgstr ""
+
+#: functions/post_types.php:32
+msgid "Carousels list navigation"
+msgstr ""
+
+#: functions/post_types.php:33
+msgid "Filter Carousels list"
+msgstr ""
+
+#: functions/sidebars.php:7
+msgid "Footer 1 Widgets"
+msgstr "סרגל תחתון 1"
+
+#: functions/sidebars.php:15
+msgid "Footer 2 Widgets"
+msgstr "סרגל תחתון 2"
+
+#: functions/sidebars.php:23
+msgid "Footer 3 Widgets"
+msgstr "סרגל תחתון 3"
+
+#: functions/sidebars.php:31
+msgid "Downloads"
+msgstr "ספרים דיגיטליים והורדות"
+
+#: functions/taxonomies.php:6
+msgctxt "Taxonomy General Name"
+msgid "Priorities"
+msgstr "עדיפויות אחרות"
+
+#: functions/taxonomies.php:7
+msgctxt "Taxonomy Singular Name"
+msgid "Priority"
+msgstr "עדיפות"
+
+#: functions/taxonomies.php:8 search.php:38
+msgid "Priorities"
+msgstr "עדיפויות אחרות"
+
+#: functions/taxonomies.php:9
+msgid "All Priorities"
+msgstr "הכל"
+
+#: functions/taxonomies.php:10
+msgid "Parent Priority"
+msgstr "עדיפות"
+
+#: functions/taxonomies.php:11
+msgid "Parent Priority:"
+msgstr "דחיפות:"
+
+#: functions/taxonomies.php:12
+msgid "New Priority"
+msgstr "עדיפות"
+
+#: functions/taxonomies.php:13
+msgid "Add New Priority"
+msgstr "הוסף קבוצה"
+
+#: functions/taxonomies.php:14
+msgid "Edit Priority"
+msgstr "עריכה"
+
+#: functions/taxonomies.php:15
+msgid "Update Priority"
+msgstr "עדכן"
+
+#: functions/taxonomies.php:16
+msgid "View Priority"
+msgstr "עדיפות"
+
+#: functions/taxonomies.php:17
+msgid "Separate Priorities with commas"
+msgstr "הפרד תגיות באמצעות פסיק"
+
+#: functions/taxonomies.php:18
+msgid "Add or remove Priorities"
+msgstr "הוסף או הסר"
+
+#: functions/taxonomies.php:19
+msgid "Choose from the most used"
+msgstr "בחר מתוך הנפוץ ביותר"
+
+#: functions/taxonomies.php:20
+msgid "Popular Priorities"
+msgstr "פופולרי"
+
+#: functions/taxonomies.php:21
+msgid "Search Priorities"
+msgstr "חיפוש"
+
+#: functions/taxonomies.php:22
+msgid "Not Found"
+msgstr "לא נמצאו תוצאות"
+
+#: functions/taxonomies.php:23
+msgid "No items"
+msgstr "אין פריטים"
+
+#: functions/taxonomies.php:24
+msgid "Priorities list"
+msgstr "אתם מפריעים לי לקרוא."
+
+#: functions/taxonomies.php:25
+msgid "Priorities list navigation"
+msgstr "התחבר בשביל להגיב"
+
+#: functions/theme.php:25
+msgid "Subscriber"
+msgstr "מנוי"
+
+#: functions/theme.php:36
+msgid "Contributor"
+msgstr "כל תורם"
+
+#: functions/theme.php:209
+msgid "Pagination"
+msgstr "דפדוף"
+
+#: functions/theme.php:211
+msgid "First"
+msgstr "ראשון"
+
+#: functions/theme.php:215
+msgid "Previous"
+msgstr "הקודם"
+
+#: functions/theme.php:228
+msgid "Last"
+msgstr "אחרון"
+
+#: functions/theme.php:253
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions/theme.php:257
+msgid "Your comment is awaiting moderation."
+msgstr "התגובה שלך מחכה לאישור."
+
+#: functions/theme.php:430
+msgid "PDFs"
+msgstr "‫PDFs"
+
+#: functions/theme.php:430
+msgid "Manage PDFs"
+msgstr "חלוקה לתיקיות"
+
+#: functions/theme.php:430
+#, php-format
+msgid "PDF <span class=\"count\">(%s)</span>"
+msgid_plural "PDFs <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:83
+msgid "Icon Menu"
+msgstr "תפריט"
+
+#: header.php:90
+msgid "Open Menu"
+msgstr "פתח תפריט משאבי אנוש"
+
+#: header.php:92
+msgid "Edit"
+msgstr "עריכה"
+
+#: header.php:94
+msgid "Choose Language"
+msgstr "בחר בשפה"
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Morning"
+msgstr "בוקר טוב"
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Afternoon"
+msgstr "ברכה"
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Evening"
+msgstr "ברכה"
+
+#: page-my-account.php:24 template-edit-account.php:30
+#: template-my-account.php:30 template-my-downloads.php:30
+#: template-my-reading-list.php:30 template-my-subscriptions.php:30
+msgid "Account Menu"
+msgstr "תפריט חשבון"
+
+#: parts/global/comments-template.php:15
+#, php-format
+msgctxt "comments title"
+msgid "One thought on \"%2$s\""
+msgid_plural "%1$s thoughts on \"%2$s\""
+msgstr[0] "מחשבה אחת על \"%2$s\""
+msgstr[1] "‫%1$s מחשבות על \"%2$s\""
+
+#: parts/global/search-form.php:13 parts/global/search-form.php:15
+#: search.php:16 search.php:17
+msgid "What are you looking for?"
+msgstr "מה את/ה מחפש?"
+
+#: parts/global/search-form.php:19 search.php:34
+msgid "Search"
+msgstr "חיפוש"
+
+#: parts/global/share-post.php:2
+msgid "Share on Facebook"
+msgstr "שתף בפייסבוק"
+
+#: parts/global/share-post.php:3
+msgid "Share on Twitter"
+msgstr "שתף בטוויטר"
+
+#: parts/global/share-post.php:4
+msgid "Share on LinkedIn"
+msgstr "שתף בלינקדאין"
+
+#: parts/home/explore-topics.php:5
+msgid "Explore by topic"
+msgstr "לפי נושא"
+
+#: parts/home/explore-topics.php:34
+#, php-format
+msgid "View all post filed under %s"
+msgstr "צפה בכל הפוסטים המתויקים תחת %s"
+
+#: parts/home/featured-posts.php:24 parts/home/home-carousel.php:69
+#: parts/home/latest-posts.php:35 parts/home/trending-posts.php:42
+#: parts/loop/author-page.php:27 parts/loop/blog-page.php:46
+msgid "No posts found"
+msgstr "לא נמצאו פוסטים"
+
+#: parts/home/latest-posts.php:5
+msgid "Latest Posts"
+msgstr "פוסטים אחרונים"
+
+#: parts/home/trending-posts.php:5
+msgid "Trending"
+msgstr "טרנדים"
+
+#: parts/loop/author-page.php:7
+msgid "Other posts by "
+msgstr "מאמרים נוספים  מאת %s"
+
+#: parts/loop/loop-post.php:65 parts/single/post-header.php:51
+msgid "Posted on"
+msgstr "פורסם בתאריך"
+
+#: parts/loop/loop-post.php:65
+msgid "by"
+msgstr "על ידי"
+
+#: parts/loop/loop-post.php:65 parts/single/single-aside.php:7
+#: parts/single/single-aside.php:9 parts/single/single-status.php:7
+#: parts/single/single-status.php:9 parts/single/single-video.php:7
+#: parts/single/single-video.php:9 parts/single/single.php:7
+#: parts/single/single.php:9
+msgid "Read more posts by "
+msgstr "פוסטים נוספים"
+
+#: parts/loop/loop-post.php:88
+msgid "minute read"
+msgstr "דקה"
+
+#: parts/loop/loop-post.php:94
+msgid "Read more"
+msgstr "המשך קריאה"
+
+#: parts/my-account/edit-account.php:1
+msgid "Update My Information"
+msgstr "עדכון את הביקורת שלי"
+
+#: parts/my-account/edit-account.php:7 parts/my-account/login-register.php:92
+msgid "First Name"
+msgstr "שם פרטי"
+
+#: parts/my-account/edit-account.php:11 parts/my-account/login-register.php:95
+msgid "Last Name"
+msgstr "שם משפחה"
+
+#: parts/my-account/edit-account.php:23
+msgid "Website"
+msgstr "אתר"
+
+#: parts/my-account/edit-account.php:246
+msgid "Update"
+msgstr "עדכן"
+
+#: parts/my-account/login-register.php:1
+msgid "Hello Guest, please log in or register"
+msgstr "נא להתחבר קודם בבקשה."
+
+#: parts/my-account/login-register.php:8 parts/my-account/login-register.php:17
+msgid "Log In"
+msgstr "התחבר"
+
+#: parts/my-account/login-register.php:9 parts/my-account/login-register.php:43
+#: parts/my-account/login-register.php:112
+msgid "Register"
+msgstr "הרשמה"
+
+#: parts/my-account/login-register.php:10
+msgid "Forgot Password"
+msgstr "שכחתי סיסמה"
+
+#: parts/my-account/login-register.php:57
+msgid "Fill out all fields marked *"
+msgstr "נא מלא כל שדות החובה."
+
+#: parts/my-account/login-register.php:59
+msgid "Invalid email address."
+msgstr "כתובת אימייל לא תקינה."
+
+#: parts/my-account/login-register.php:61
+msgid "Email already exists."
+msgstr "כתובת האימייל כבר קיימת"
+
+#: parts/my-account/login-register.php:63
+msgid "Password do not match."
+msgstr "סיסמה לא מתאימה"
+
+#: parts/my-account/login-register.php:67
+msgid "Error on user creation."
+msgstr "שגיאה"
+
+#: parts/my-account/login-register.php:70
+msgid "You can now log in"
+msgstr "Tebrikler! Şimdi hesabınızla giriş yapabilirsiniz"
+
+#: parts/my-account/login-register.php:98
+msgid "Email"
+msgstr "אי-מייל"
+
+#: parts/my-account/login-register.php:101
+msgid "Username"
+msgstr "סיסמא"
+
+#: parts/my-account/login-register.php:104
+msgid "Password"
+msgstr "סיסמה"
+
+#: parts/my-account/login-register.php:107
+msgid "Repeat Password"
+msgstr "חזור על הסיסמה"
+
+#: parts/my-account/login-register.php:121
+msgid "Password Reset"
+msgstr "איפוס סיסמה"
+
+#: parts/my-account/login-register.php:123
+msgid "Enter your username or email to reset your password."
+msgstr "הזני את כתובת הדואר האלקטרוני שלך כדי לאפס את הסיסמה שלך:"
+
+#: parts/my-account/login-register.php:127
+msgid "Username or Email"
+msgstr "שם משתמש או כתובת מייל"
+
+#: parts/my-account/login-register.php:132
+msgid "Reset my password"
+msgstr "אפס את הסיסמה שלי"
+
+#: parts/my-account/login-register.php:133
+msgid "A message will be sent to your email address."
+msgstr "אם ריק, ישלח לכתובת הדוא\"ל שלך"
+
+#: parts/my-account/my-downloads.php:1
+msgid "My Downloads"
+msgstr "הורדות שלי"
+
+#: parts/my-account/my-subscriptions.php:1
+msgid "My Subscriptions"
+msgstr "ההרשמות שלי"
+
+#: parts/my-account/reading-list.php:1
+msgid "My Reading List"
+msgstr "אתם מפריעים לי לקרוא."
+
+#: parts/my-account/reading-list.php:19
+msgid "Older Favorites"
+msgstr "ישן יותר"
+
+#: parts/my-account/reading-list.php:20
+msgid "Newer Favorites"
+msgstr "אהבתי"
+
+#: parts/my-account/reading-list.php:23
+msgid "No articles added to your Reading List yet."
+msgstr "נוסף לעגלת הקניות שלך"
+
+#: parts/my-account/reset-password.php:1 parts/my-account/reset-password.php:39
+msgid "Reset Password"
+msgstr "לאפס סיסמה"
+
+#: parts/my-account/reset-password.php:8
+msgid "The link you clicked on has expired"
+msgstr "הקישור שלחצת עליו פג‬"
+
+#: parts/my-account/reset-password.php:26
+msgid "New password"
+msgstr "סיסמה חדשה (10 תווים לפחות)"
+
+#: parts/my-account/reset-password.php:30
+msgid "Repeat new password"
+msgstr "נא לחזור על הסיסמה החדשה"
+
+#: parts/single/list-categories.php:3
+msgid "Category:"
+msgstr "קטגוריה:"
+
+#: parts/single/list-tags.php:1
+msgid "Tags:"
+msgstr "תגיות:"
+
+#: parts/single/post-header.php:63
+msgid "Add to Reading List"
+msgstr "להוסיף לרשימה"
+
+#: parts/single/post-header.php:71
+msgid "Log In to add to Reading List"
+msgstr "התחבר בשביל להגיב"
+
+#: parts/single/related-posts.php:5
+msgid "Related Articles"
+msgstr "יכול לעניין אותך"
+
+#: parts/single/related-posts.php:37
+msgid "No related posts found"
+msgstr "לא נמצאו פוסטים משויכים"
+
+#: parts/single/single-aside.php:29 parts/single/single-status.php:22
+#: parts/single/single-video.php:22 parts/single/single.php:22
+msgid ""
+"DISCLAIMER: this article is older than one year and may not be up to date "
+"with recent events or newly available information."
+msgstr ""
+"כתב ויתור: מאמר זה ישן יותר משנה אחת, והוא עשוי להיות מעודכן עם האירועים "
+"האחרונים או מידע זמין.‬"
+
+#: parts/single/single-aside.php:104
+msgid "Register to download"
+msgstr "לא מצליח להוריד"
+
+#: parts/single/single-aside.php:141
+msgid "Go to White Paper"
+msgstr "ספר לבן"
+
+#: parts/single/single-status.php:36 parts/single/single-status.php:42
+msgid "Get your tickets"
+msgstr "הכרטיסים שלך"
+
+#: parts/single/single-video.php:28
+msgid "Watch on YouTube"
+msgstr ""
+
+#: search.php:7
+msgid "Show Filters"
+msgstr "הצגת סינונים"
+
+#: search.php:11
+msgid "Language"
+msgstr "שפה"
+
+#: search.php:42
+msgid "Asset Type"
+msgstr "סוג  הנכס"
+
+#: search.php:46
+msgid "Categories"
+msgstr "בחר את קטגוריית העסק"
+
+#: search.php:50
+msgid "Tags"
+msgstr "תגיות"
+
+#: search.php:54
+msgid "Results"
+msgstr "תוצאות"
+
+#: search.php:58
+msgid " results found."
+msgstr "תוצאות מתאימות"
+
+#: search.php:83
+msgid "No results"
+msgstr "אין תוצאות"
+
+#: searchwp-live-ajax-search/search-results.php:16
+msgid "No results found."
+msgstr "לא נמצאו תוצאות."
+
+#: template-sitemap.php:27
+msgid "Pages"
+msgstr "עמודים"
+
+#: template-sitemap.php:37
+msgid "Posts"
+msgstr "פרסומים מאת:"
+
+#. Theme Name of the plugin/theme
+msgid "VMware Blogs"
+msgstr "‫VMware Blogs"
+
+#. Theme URI of the plugin/theme
+msgid "http://vmwareemeablog.com"
+msgstr "‫http://vmwareemeablog.com"
+
+#. Description of the plugin/theme
+msgid "Custom Wordpress theme for VMware EMEA Blogs"
+msgstr "‫Custom Wordpress theme for VMware EMEA Blogs"
+
+#. Author of the plugin/theme
+msgid "Mark Duwe"
+msgstr "‫Mark Duwe"
+
+#. Author URI of the plugin/theme
+msgid "http://prydonian.digital"
+msgstr "‫http://prydonian.digital"
+
+#~ msgid "Priorities Top Menu"
+#~ msgstr "תפריט עליון"
+
+#~ msgid "Priorities Side Menu"
+#~ msgstr "תפריט חשבון"

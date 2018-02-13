@@ -1,0 +1,978 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VMware Blogs\n"
+"POT-Creation-Date: 2018-02-13 11:52+0000\n"
+"PO-Revision-Date: 2018-02-13 13:35+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:37
+msgid "Sorry, the page you requested was not found."
+msgstr ""
+
+#: 404.php:39
+msgid "If you're having trouble locating a destination on "
+msgstr ""
+
+#: 404.php:39
+msgid ""
+", try visiting the home page, using the menu at the top, or use the search "
+"bar above."
+msgstr ""
+
+#: comments.php:10
+msgid "Comments"
+msgstr ""
+
+#: comments.php:33 parts/global/comments-template.php:36
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:34 parts/global/comments-template.php:37
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:35 parts/global/comments-template.php:38
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:42 parts/global/comments-template.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:52
+msgid "No comments yet"
+msgstr ""
+
+#: comments.php:68
+msgid "Add a comment"
+msgstr ""
+
+#: comments.php:86
+msgid "Comments are closed"
+msgstr ""
+
+#: footer.php:38 functions/menus.php:10
+msgid "Footer Menu"
+msgstr ""
+
+#: footer.php:56
+msgid "Back to top of page"
+msgstr ""
+
+#: functions/menus.php:5 header.php:54 header.php:105
+msgid "Priorities Menu"
+msgstr ""
+
+#: functions/menus.php:6 header.php:40
+msgid "Language Menu"
+msgstr ""
+
+#: functions/menus.php:7
+msgid "Top Icon Menu"
+msgstr ""
+
+#: functions/menus.php:8 page-my-account.php:34 template-my-account.php:40
+msgid "My Account"
+msgstr ""
+
+#: functions/menus.php:9 header.php:125
+msgid "Social Media"
+msgstr ""
+
+#: functions/menus.php:11
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions/menus.php:82
+msgid "Dashboard"
+msgstr ""
+
+#: functions/menus.php:84
+msgid "Logout"
+msgstr ""
+
+#: functions/meta.php:8 functions/meta.php:15
+msgid "Language Direction"
+msgstr ""
+
+#: functions/meta.php:18
+msgid "LTR"
+msgstr ""
+
+#: functions/meta.php:19
+msgid "RTL"
+msgstr ""
+
+#: functions/meta.php:30
+msgid "Location Address"
+msgstr ""
+
+#: functions/meta.php:36 parts/my-account/edit-account.php:23
+msgid "Website"
+msgstr ""
+
+#: functions/meta.php:41
+msgid "Street Address"
+msgstr ""
+
+#: functions/meta.php:46
+msgid "City"
+msgstr ""
+
+#: functions/meta.php:51
+msgid "Region"
+msgstr ""
+
+#: functions/meta.php:56
+msgid "Postal Code"
+msgstr ""
+
+#: functions/meta.php:61 functions/meta.php:239
+#: parts/my-account/edit-account.php:27
+msgid "Country"
+msgstr ""
+
+#: functions/meta.php:66
+msgid "Photo"
+msgstr ""
+
+#: functions/meta.php:76
+msgid "VMWorld Info"
+msgstr ""
+
+#: functions/meta.php:82
+msgid "Start Date Of Event"
+msgstr ""
+
+#: functions/meta.php:88
+msgid "End Date Of Event"
+msgstr ""
+
+#: functions/meta.php:95
+msgid "Start typing location name"
+msgstr ""
+
+#: functions/meta.php:106
+msgid "Show Event Address"
+msgstr ""
+
+#: functions/meta.php:111
+msgid "Ticket Link"
+msgstr ""
+
+#: functions/meta.php:116
+msgid "Hands-On Lab"
+msgstr ""
+
+#: functions/meta.php:122
+msgid "URL of Hands-On Lab"
+msgstr ""
+
+#: functions/meta.php:127
+msgid "Hands-On Lab Title"
+msgstr ""
+
+#: functions/meta.php:132
+msgid "Post Video"
+msgstr ""
+
+#: functions/meta.php:138
+msgid "URL of video"
+msgstr ""
+
+#: functions/meta.php:143
+msgid ""
+"Get the image for the video by taking the video ID and using the following "
+"URL: https://i.ytimg.com/vi/VIDEOID/maxresdefault.jpg"
+msgstr ""
+
+#: functions/meta.php:148
+msgid "Post White Paper"
+msgstr ""
+
+#: functions/meta.php:154
+msgid "White Paper Title"
+msgstr ""
+
+#: functions/meta.php:159
+msgid "White Paper Description"
+msgstr ""
+
+#: functions/meta.php:164
+msgid "White Paper Cover Image"
+msgstr ""
+
+#: functions/meta.php:169
+msgid "White Paper File"
+msgstr ""
+
+#: functions/meta.php:174
+msgid "Form"
+msgstr ""
+
+#: functions/meta.php:186
+msgid "Carousel Link"
+msgstr ""
+
+#: functions/meta.php:193
+msgid "Start typing post title"
+msgstr ""
+
+#: functions/meta.php:204
+msgid "Slide Text"
+msgstr ""
+
+#: functions/meta.php:217
+msgid "User Profile"
+msgstr ""
+
+#: functions/meta.php:223
+msgid "Extra Info"
+msgstr ""
+
+#: functions/meta.php:229 parts/my-account/edit-account.php:15
+msgid "Phone"
+msgstr ""
+
+#: functions/meta.php:234 parts/my-account/edit-account.php:19
+msgid "Company"
+msgstr ""
+
+#: functions/post_types.php:7
+msgctxt "Carousel General Name"
+msgid "Carousels"
+msgstr ""
+
+#: functions/post_types.php:8
+msgctxt "Carousel Singular Name"
+msgid "Carousel"
+msgstr ""
+
+#: functions/post_types.php:9 functions/post_types.php:37
+msgid "Carousels"
+msgstr ""
+
+#: functions/post_types.php:10 functions/post_types.php:36
+msgid "Carousel"
+msgstr ""
+
+#: functions/post_types.php:11
+msgid "Carousel Archives"
+msgstr ""
+
+#: functions/post_types.php:12
+msgid "Carousel Attributes"
+msgstr ""
+
+#: functions/post_types.php:13
+msgid "Parent Carousel:"
+msgstr ""
+
+#: functions/post_types.php:14
+msgid "All Carousels"
+msgstr ""
+
+#: functions/post_types.php:15
+msgid "Add New Carousel"
+msgstr ""
+
+#: functions/post_types.php:16 functions/post_types.php:73
+msgid "Add New"
+msgstr ""
+
+#: functions/post_types.php:17
+msgid "New Carousel"
+msgstr ""
+
+#: functions/post_types.php:18
+msgid "Edit Carousel"
+msgstr ""
+
+#: functions/post_types.php:19
+msgid "Update Carousel"
+msgstr ""
+
+#: functions/post_types.php:20
+msgid "View Carousel"
+msgstr ""
+
+#: functions/post_types.php:21
+msgid "View Carousels"
+msgstr ""
+
+#: functions/post_types.php:22
+msgid "Search Carousels"
+msgstr ""
+
+#: functions/post_types.php:23 functions/post_types.php:80
+msgid "Not found"
+msgstr ""
+
+#: functions/post_types.php:24 functions/post_types.php:81
+msgid "Not found in Trash"
+msgstr ""
+
+#: functions/post_types.php:25 functions/post_types.php:82
+msgid "Featured Image"
+msgstr ""
+
+#: functions/post_types.php:26 functions/post_types.php:83
+msgid "Set featured image"
+msgstr ""
+
+#: functions/post_types.php:27 functions/post_types.php:84
+msgid "Remove featured image"
+msgstr ""
+
+#: functions/post_types.php:28 functions/post_types.php:85
+msgid "Use as featured image"
+msgstr ""
+
+#: functions/post_types.php:29
+msgid "Insert into Carousel"
+msgstr ""
+
+#: functions/post_types.php:30 functions/post_types.php:87
+msgid "Uploaded to this item"
+msgstr ""
+
+#: functions/post_types.php:31
+msgid "Carousels list"
+msgstr ""
+
+#: functions/post_types.php:32
+msgid "Carousels list navigation"
+msgstr ""
+
+#: functions/post_types.php:33
+msgid "Filter Carousels list"
+msgstr ""
+
+#: functions/post_types.php:64
+msgctxt "Location General Name"
+msgid "Locations"
+msgstr ""
+
+#: functions/post_types.php:65
+msgctxt "Location Singular Name"
+msgid "Location"
+msgstr ""
+
+#: functions/post_types.php:66 functions/post_types.php:94
+msgid "Locations"
+msgstr ""
+
+#: functions/post_types.php:67 functions/post_types.php:93
+msgid "Location"
+msgstr ""
+
+#: functions/post_types.php:68
+msgid "Location Archives"
+msgstr ""
+
+#: functions/post_types.php:69
+msgid "Location Attributes"
+msgstr ""
+
+#: functions/post_types.php:70
+msgid "Parent Location:"
+msgstr ""
+
+#: functions/post_types.php:71
+msgid "All Locations"
+msgstr ""
+
+#: functions/post_types.php:72
+msgid "Add New Location"
+msgstr ""
+
+#: functions/post_types.php:74
+msgid "New Location"
+msgstr ""
+
+#: functions/post_types.php:75
+msgid "Edit Location"
+msgstr ""
+
+#: functions/post_types.php:76
+msgid "Update Location"
+msgstr ""
+
+#: functions/post_types.php:77
+msgid "View Location"
+msgstr ""
+
+#: functions/post_types.php:78
+msgid "View Locations"
+msgstr ""
+
+#: functions/post_types.php:79
+msgid "Search Locations"
+msgstr ""
+
+#: functions/post_types.php:86
+msgid "Insert into Location"
+msgstr ""
+
+#: functions/post_types.php:88
+msgid "Locations list"
+msgstr ""
+
+#: functions/post_types.php:89
+msgid "Locations list navigation"
+msgstr ""
+
+#: functions/post_types.php:90
+msgid "Filter Locations list"
+msgstr ""
+
+#: functions/sidebars.php:7
+msgid "Footer 1 Widgets"
+msgstr ""
+
+#: functions/sidebars.php:15
+msgid "Footer 2 Widgets"
+msgstr ""
+
+#: functions/sidebars.php:23
+msgid "Footer 3 Widgets"
+msgstr ""
+
+#: functions/sidebars.php:31
+msgid "Downloads"
+msgstr ""
+
+#: functions/taxonomies.php:6
+msgctxt "Taxonomy General Name"
+msgid "Priorities"
+msgstr ""
+
+#: functions/taxonomies.php:7
+msgctxt "Taxonomy Singular Name"
+msgid "Priority"
+msgstr ""
+
+#: functions/taxonomies.php:8 search.php:38
+msgid "Priorities"
+msgstr ""
+
+#: functions/taxonomies.php:9
+msgid "All Priorities"
+msgstr ""
+
+#: functions/taxonomies.php:10
+msgid "Parent Priority"
+msgstr ""
+
+#: functions/taxonomies.php:11
+msgid "Parent Priority:"
+msgstr ""
+
+#: functions/taxonomies.php:12
+msgid "New Priority"
+msgstr ""
+
+#: functions/taxonomies.php:13
+msgid "Add New Priority"
+msgstr ""
+
+#: functions/taxonomies.php:14
+msgid "Edit Priority"
+msgstr ""
+
+#: functions/taxonomies.php:15
+msgid "Update Priority"
+msgstr ""
+
+#: functions/taxonomies.php:16
+msgid "View Priority"
+msgstr ""
+
+#: functions/taxonomies.php:17
+msgid "Separate Priorities with commas"
+msgstr ""
+
+#: functions/taxonomies.php:18
+msgid "Add or remove Priorities"
+msgstr ""
+
+#: functions/taxonomies.php:19
+msgid "Choose from the most used"
+msgstr ""
+
+#: functions/taxonomies.php:20
+msgid "Popular Priorities"
+msgstr ""
+
+#: functions/taxonomies.php:21
+msgid "Search Priorities"
+msgstr ""
+
+#: functions/taxonomies.php:22
+msgid "Not Found"
+msgstr ""
+
+#: functions/taxonomies.php:23
+msgid "No items"
+msgstr ""
+
+#: functions/taxonomies.php:24
+msgid "Priorities list"
+msgstr ""
+
+#: functions/taxonomies.php:25
+msgid "Priorities list navigation"
+msgstr ""
+
+#: functions/theme.php:25
+msgid "Subscriber"
+msgstr ""
+
+#: functions/theme.php:36
+msgid "Contributor"
+msgstr ""
+
+#: functions/theme.php:216
+msgid "Pagination"
+msgstr ""
+
+#: functions/theme.php:218
+msgid "First"
+msgstr ""
+
+#: functions/theme.php:222
+msgid "Previous"
+msgstr ""
+
+#: functions/theme.php:232
+msgid "Next"
+msgstr ""
+
+#: functions/theme.php:235
+msgid "Last"
+msgstr ""
+
+#: functions/theme.php:260
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions/theme.php:264
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/theme.php:461
+msgid "PDFs"
+msgstr ""
+
+#: functions/theme.php:461
+msgid "Manage PDFs"
+msgstr ""
+
+#: functions/theme.php:461
+#, php-format
+msgid "PDF <span class=\"count\">(%s)</span>"
+msgid_plural "PDFs <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:83
+msgid "Icon Menu"
+msgstr ""
+
+#: header.php:90
+msgid "Open Menu"
+msgstr ""
+
+#: header.php:92
+msgid "Edit"
+msgstr ""
+
+#: header.php:94
+msgid "Choose Language"
+msgstr ""
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Morning"
+msgstr ""
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Afternoon"
+msgstr ""
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Evening"
+msgstr ""
+
+#: page-my-account.php:24 template-edit-account.php:30
+#: template-my-account.php:30 template-my-downloads.php:30
+#: template-my-reading-list.php:30 template-my-subscriptions.php:30
+msgid "Account Menu"
+msgstr ""
+
+#: parts/global/comments-template.php:15
+#, php-format
+msgctxt "comments title"
+msgid "One thought on \"%2$s\""
+msgid_plural "%1$s thoughts on \"%2$s\""
+msgstr[0] ""
+msgstr[1] ""
+
+#: parts/global/search-form.php:13 parts/global/search-form.php:15
+#: search.php:16 search.php:17
+msgid "What are you looking for?"
+msgstr ""
+
+#: parts/global/search-form.php:19 search.php:34
+msgid "Search"
+msgstr ""
+
+#: parts/global/share-post.php:2
+msgid "Share on Facebook"
+msgstr ""
+
+#: parts/global/share-post.php:3
+msgid "Share on Twitter"
+msgstr ""
+
+#: parts/global/share-post.php:4
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: parts/home/explore-topics.php:5
+msgid "Explore by topic"
+msgstr ""
+
+#: parts/home/explore-topics.php:34
+#, php-format
+msgid "View all post filed under %s"
+msgstr ""
+
+#: parts/home/featured-posts.php:26 parts/home/home-carousel.php:69
+#: parts/home/latest-posts.php:35 parts/home/trending-posts.php:42
+#: parts/loop/author-page.php:27 parts/loop/blog-page.php:60
+msgid "No posts found"
+msgstr ""
+
+#: parts/home/latest-posts.php:5
+msgid "Latest Posts"
+msgstr ""
+
+#: parts/home/trending-posts.php:5
+msgid "Trending"
+msgstr ""
+
+#: parts/loop/author-page.php:7
+msgid "Other posts by "
+msgstr ""
+
+#: parts/loop/blog-page.php:20
+msgid "White Papers"
+msgstr ""
+
+#: parts/loop/blog-page.php:23
+msgid "Videos"
+msgstr ""
+
+#: parts/loop/blog-page.php:26
+msgid "VMWorld"
+msgstr ""
+
+#: parts/loop/blog-page.php:29
+msgid "Hands-On Labs"
+msgstr ""
+
+#: parts/loop/loop-post.php:119 parts/single/post-header.php:51
+msgid "Posted on"
+msgstr ""
+
+#: parts/loop/loop-post.php:119
+msgid "by"
+msgstr ""
+
+#: parts/loop/loop-post.php:119 parts/single/single-aside.php:7
+#: parts/single/single-aside.php:9 parts/single/single-link.php:7
+#: parts/single/single-link.php:9 parts/single/single-status.php:7
+#: parts/single/single-status.php:9 parts/single/single-video.php:7
+#: parts/single/single-video.php:9 parts/single/single.php:7
+#: parts/single/single.php:9
+msgid "Read more posts by "
+msgstr ""
+
+#: parts/loop/loop-post.php:158
+msgid "minute read"
+msgstr ""
+
+#: parts/loop/loop-post.php:164
+msgid "Read more"
+msgstr ""
+
+#: parts/my-account/edit-account.php:1
+msgid "Update My Information"
+msgstr ""
+
+#: parts/my-account/edit-account.php:7 parts/my-account/login-register.php:92
+msgid "First Name"
+msgstr ""
+
+#: parts/my-account/edit-account.php:11 parts/my-account/login-register.php:95
+msgid "Last Name"
+msgstr ""
+
+#: parts/my-account/edit-account.php:246
+msgid "Update"
+msgstr ""
+
+#: parts/my-account/login-register.php:1
+msgid "Hello Guest, please log in or register"
+msgstr ""
+
+#: parts/my-account/login-register.php:8 parts/my-account/login-register.php:17
+msgid "Log In"
+msgstr ""
+
+#: parts/my-account/login-register.php:9 parts/my-account/login-register.php:43
+#: parts/my-account/login-register.php:112
+msgid "Register"
+msgstr ""
+
+#: parts/my-account/login-register.php:10
+msgid "Forgot Password"
+msgstr ""
+
+#: parts/my-account/login-register.php:57
+msgid "Fill out all fields marked *"
+msgstr ""
+
+#: parts/my-account/login-register.php:59
+msgid "Invalid email address."
+msgstr ""
+
+#: parts/my-account/login-register.php:61
+msgid "Email already exists."
+msgstr ""
+
+#: parts/my-account/login-register.php:63
+msgid "Password do not match."
+msgstr ""
+
+#: parts/my-account/login-register.php:67
+msgid "Error on user creation."
+msgstr ""
+
+#: parts/my-account/login-register.php:70
+msgid "You can now log in"
+msgstr ""
+
+#: parts/my-account/login-register.php:98
+msgid "Email"
+msgstr ""
+
+#: parts/my-account/login-register.php:101
+msgid "Username"
+msgstr ""
+
+#: parts/my-account/login-register.php:104
+msgid "Password"
+msgstr ""
+
+#: parts/my-account/login-register.php:107
+msgid "Repeat Password"
+msgstr ""
+
+#: parts/my-account/login-register.php:121
+msgid "Password Reset"
+msgstr ""
+
+#: parts/my-account/login-register.php:123
+msgid "Enter your username or email to reset your password."
+msgstr ""
+
+#: parts/my-account/login-register.php:127
+msgid "Username or Email"
+msgstr ""
+
+#: parts/my-account/login-register.php:132
+msgid "Reset my password"
+msgstr ""
+
+#: parts/my-account/login-register.php:133
+msgid "A message will be sent to your email address."
+msgstr ""
+
+#: parts/my-account/my-downloads.php:1
+msgid "My Downloads"
+msgstr ""
+
+#: parts/my-account/my-subscriptions.php:1
+msgid "My Subscriptions"
+msgstr ""
+
+#: parts/my-account/reading-list.php:1
+msgid "My Reading List"
+msgstr ""
+
+#: parts/my-account/reading-list.php:19
+msgid "Older Favorites"
+msgstr ""
+
+#: parts/my-account/reading-list.php:20
+msgid "Newer Favorites"
+msgstr ""
+
+#: parts/my-account/reading-list.php:23
+msgid "No articles added to your Reading List yet."
+msgstr ""
+
+#: parts/my-account/reset-password.php:1 parts/my-account/reset-password.php:39
+msgid "Reset Password"
+msgstr ""
+
+#: parts/my-account/reset-password.php:8
+msgid "The link you clicked on has expired"
+msgstr ""
+
+#: parts/my-account/reset-password.php:26
+msgid "New password"
+msgstr ""
+
+#: parts/my-account/reset-password.php:30
+msgid "Repeat new password"
+msgstr ""
+
+#: parts/single/list-categories.php:3
+msgid "Category:"
+msgstr ""
+
+#: parts/single/list-tags.php:1
+msgid "Tags:"
+msgstr ""
+
+#: parts/single/post-header.php:63
+msgid "Add to Reading List"
+msgstr ""
+
+#: parts/single/post-header.php:71
+msgid "Log In to add to Reading List"
+msgstr ""
+
+#: parts/single/related-posts.php:5
+msgid "Related Articles"
+msgstr ""
+
+#: parts/single/related-posts.php:37
+msgid "No related posts found"
+msgstr ""
+
+#: parts/single/single-aside.php:29 parts/single/single-link.php:22
+#: parts/single/single-status.php:22 parts/single/single-video.php:22
+#: parts/single/single.php:22
+msgid ""
+"DISCLAIMER: this article is older than one year and may not be up to date "
+"with recent events or newly available information."
+msgstr ""
+
+#: parts/single/single-aside.php:104
+msgid "Register to download"
+msgstr ""
+
+#: parts/single/single-aside.php:141
+msgid "Go to White Paper"
+msgstr ""
+
+#: parts/single/single-status.php:72
+msgid "Get your tickets"
+msgstr ""
+
+#: parts/single/single-video.php:28
+msgid "Watch on YouTube"
+msgstr ""
+
+#: search.php:7
+msgid "Show Filters"
+msgstr ""
+
+#: search.php:11
+msgid "Language"
+msgstr ""
+
+#: search.php:42
+msgid "Asset Type"
+msgstr ""
+
+#: search.php:46
+msgid "Categories"
+msgstr ""
+
+#: search.php:50
+msgid "Tags"
+msgstr ""
+
+#: search.php:54
+msgid "Results"
+msgstr ""
+
+#: search.php:58
+msgid " results found."
+msgstr ""
+
+#: search.php:83
+msgid "No results"
+msgstr ""
+
+#: searchwp-live-ajax-search/search-results.php:16
+msgid "No results found."
+msgstr ""
+
+#: template-sitemap.php:27
+msgid "Pages"
+msgstr ""
+
+#: template-sitemap.php:37
+msgid "Posts"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "VMware Blogs"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://vmwareemeablog.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Custom Wordpress theme for VMware EMEA Blogs"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mark Duwe"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://prydonian.digital"
+msgstr ""

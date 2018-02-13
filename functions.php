@@ -5,3 +5,17 @@
 	} elseif ( file_exists( dirname( __FILE__ ) . '/CMB2/init.php' ) ) {
 		require_once dirname( __FILE__ ) . '/CMB2/init.php';
 	}
+
+	function my_swp_xpdf_path() {
+		return '/var/sites/v/vm.dev/public_html/pdftotext';
+	}
+	add_filter( 'searchwp_xpdf_path', 'my_swp_xpdf_path' );
+
+	require_once('functions/theme.php');
+	require_once('functions/meta.php');
+	require_once('functions/post_types.php');
+	require_once('functions/taxonomies.php');
+	require_once('functions/menus.php');
+	require_once('functions/sidebars.php');
+	require_once('functions/user.php');
+

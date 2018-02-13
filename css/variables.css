@@ -1,0 +1,414 @@
+:root {
+	--color-data-centers: #006990;
+	--color-data-centers-hover: #00436a;
+	--color-digital-workspace: #387c2c;
+	--color-digital-workspace-hover: #125606;
+	--color-public-cloud: #f38b00;
+	--color-public-cloud-hover: #cd6500;
+	--color-security: #9e3039;
+	--color-security-hover: #780a13;
+	--color-vmworld: #0095d3;
+	--color-vmworld-hover: #006fad;
+	--color-white: #ffffff;
+	--color-black: #111111;
+}
+
+/* -- http://cssnext.io/playground/	-- */
+
+/* ------ Priorities ------ */
+.menu li.data-centers {
+	background: var(--color-data-centers);
+}
+.menu li.data-centers a:active, .menu li.data-centers:hover {
+	background: var(--color-data-centers-hover);
+}
+.menu li.digital-workspace {
+	background: var(--color-digital-workspace);
+}
+.menu li.digital-workspace a:active, .menu li.digital-workspace:hover {
+	background: var(--color-digital-workspace-hover);
+}
+.menu li.public-cloud {
+	background: var(--color-public-cloud);
+}
+.menu li.public-cloud a:active, .menu li.public-cloud:hover {
+	background: var(--color-public-cloud-hover);
+}
+.menu li.security {
+	background: var(--color-security);
+}
+.menu li.security a:active, .menu li.security:hover {
+	background: var(--color-security-hover);
+}
+.menu li.vmworld {
+	background: var(--color-vmworld);
+	color: var(--color-white);
+}
+.menu li.vmworld a:active, .menu li.vmworld:hover {
+	background: var(--color-vmworld-hover);
+}
+.priority-vmworld a,
+.priority-vmworld h4.sectionTitle a {
+	color: var(--color-vmworld);
+}
+.priority-vmworld a:active, .priority-vmworld a:hover {
+	color: var(--color-vmworld-hover);
+}
+.priority-vmworld a.button {
+	background: var(--color-vmworld);
+	color: var(--color-white);
+}
+.priority-vmworld a.button:active, .priority-vmworld a.button:hover {
+	background: var(--color-vmworld-hover);
+	color: var(--color-white);
+}
+.priority-data-centers a,
+.priority-data-centers h4.sectionTitle a {
+	color: var(--color-data-centers);
+}
+.priority-data-centers a:active, .priority-data-centers a:hover {
+	color: var(--color-data-centers-hover);
+}
+.priority-digital-workspace a,
+.priority-digital-workspace h4.sectionTitle a {
+	color: var(--color-digital-workspace);
+}
+.priority-digital-workspace a:active, .priority-digital-workspace a:hover {
+	color: var(--color-digital-workspace-hover);
+}
+.priority-public-cloud a,
+.priority-public-cloud h4.sectionTitle a {
+	color: var(--color-public-cloud);
+}
+.priority-public-cloud a:active, .priority-public-cloud a:hover {
+	color: var(--color-public-cloud-hover);
+}
+.priority-security a,
+.priority-security h4.sectionTitle a{
+	color: var(--color-security);
+}
+.priority-security a:active, .priority-security a:hover {
+	color: var(--color-security-hover);
+}
+.priority-centres-de-donnees a.button,
+.priority-data-centers a.button {
+	background: var(--color-data-centers);
+	color: var(--color-white);
+}
+.priority-data-centers a.button:active, .priority-data-centers a.button:hover {
+	background: var(--color-data-centers-hover);
+	color: var(--color-white);
+}
+.priority-digital-workspace a.button {
+	background: var(--color-digital-workspace);
+	color: var(--color-white);
+}
+.priority-digital-workspace a.button:active, .priority-digital-workspace a.button:hover {
+	background: var(--color-digital-workspace-hover);
+	color: var(--color-white);
+}
+.priority-public-cloud a.button {
+	background: var(--color-public-cloud);
+	color: var(--color-white);
+}
+.priority-public-cloud a.button:active, .priority-public-cloud a.button:hover {
+	background: var(--color-public-cloud-hover);
+	color: var(--color-white);
+}
+.priority-security a.button {
+	background: var(--color-security);
+	color: var(--color-white);
+}
+.priority-security a.button:active, .priority-security a.button:hover {
+	background: var(--color-security-hover);
+	color: var(--color-white);
+}
+.single.digital-workspace h4.sectionTitle {
+	color: var(--color-digital-workspace);
+}
+.single.digital-workspace h4.sectionTitle:after {
+	border-top: 1px solid var(--color-digital-workspace);
+}
+.single.public-cloud h4.sectionTitle {
+	color: var(--color-public-cloud);
+}
+.single.public-cloud h4.sectionTitle:after {
+	border-top: 1px solid var(--color-public-cloud);
+}
+.single.data-centers h4.sectionTitle {
+	color: var(--color-data-centers);
+}
+.single.data-centers h4.sectionTitle:after {
+	border-top: 1px solid var(--color-data-centers);
+}
+.single.security h4.sectionTitle {
+	color: var(--color-security);
+}
+.single.security h4.sectionTitle:after {
+	border-top: 1px solid var(--color-security);
+}
+.single.vmworld h4.sectionTitle {
+	color: var(--color-vmworld);
+}
+.single.vmworld  h4.sectionTitle:after {
+	border-top: 1px solid var(--color-vmworld);
+}
+.priority-vmworld .postContent h4.entry-title {
+	border-color: var(--color-vmworld);
+}
+.priority-vmworld .postContent h4.entry-title:before {
+	background: var(--color-vmworld);
+	background: -moz-linear-gradient(-45deg, var(--color-vmworld-hover) 0%, var(--color-vmworld-hover) 50%, var(--color-vmworld) 50%, var(--color-vmworld) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--color-vmworld-hover)), color-stop(50%, var(--color-vmworld-hover)), color-stop(50%, var(--color-vmworld)), color-stop(100%, var(--color-vmworld)));
+	background: -webkit-linear-gradient(-45deg, var(--color-vmworld-hover) 0%, var(--color-vmworld-hover) 50%, var(--color-vmworld) 50%, var(--color-vmworld) 100%);
+	background: -o-linear-gradient(-45deg, var(--color-vmworld-hover) 0%, var(--color-vmworld-hover) 50%, var(--color-vmworld) 50%, var(--color-vmworld) 100%);
+	background: -ms-linear-gradient(-45deg, var(--color-vmworld-hover) 0%, var(--color-vmworld-hover) 50%, var(--color-vmworld) 50%, var(--color-vmworld) 100%);
+	background: linear-gradient(135deg, var(--color-vmworld-hover) 0%, var(--color-vmworld-hover) 50%, var(--color-vmworld) 50%, var(--color-vmworld) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-vmworld-hover)', endColorstr='var(--color-vmworld)', GradientType=1 );
+}
+.priority-digital-workspace .postContent h4.entry-title {
+	border-color: var(--color-digital-workspace);
+}
+.priority-digital-workspace .postContent h4.entry-title:before {
+	background: var(--color-digital-workspace-hover);
+	background: -moz-linear-gradient(-45deg, var(--color-digital-workspace-hover) 0%, var(--color-digital-workspace-hover) 50%, var(--color-digital-workspace) 50%, var(--color-digital-workspace) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--color-digital-workspace-hover)), color-stop(50%, var(--color-digital-workspace-hover)), color-stop(50%, var(--color-digital-workspace)), color-stop(100%, var(--color-digital-workspace)));
+	background: -webkit-linear-gradient(-45deg, var(--color-digital-workspace-hover) 0%, var(--color-digital-workspace-hover) 50%, var(--color-digital-workspace) 50%, var(--color-digital-workspace) 100%);
+	background: -o-linear-gradient(-45deg, var(--color-digital-workspace-hover) 0%, var(--color-digital-workspace-hover) 50%, var(--color-digital-workspace) 50%, var(--color-digital-workspace) 100%);
+	background: -ms-linear-gradient(-45deg, var(--color-digital-workspace-hover) 0%, var(--color-digital-workspace-hover) 50%, var(--color-digital-workspace) 50%, var(--color-digital-workspace) 100%);
+	background: linear-gradient(135deg, var(--color-digital-workspace-hover) 0%, var(--color-digital-workspace-hover) 50%, var(--color-digital-workspace) 50%, var(--color-digital-workspace) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-digital-workspace)', endColorstr='var(--color-digital-workspace-hover)', GradientType=1 );
+}
+.priority-data-centers .postContent h4.entry-title {
+	border-color: var(--color-data-centers);
+}
+.priority-data-centers .postContent h4.entry-title:before {
+	background: var(--color-data-centers-hover);
+	background: -moz-linear-gradient(-45deg, var(--color-data-centers-hover) 0%, var(--color-data-centers-hover) 50%, var(--color-data-centers) 50%, var(--color-data-centers) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--color-data-centers-hover)), color-stop(50%, var(--color-data-centers-hover)), color-stop(50%, var(--color-data-centers)), color-stop(100%, var(--color-data-centers)));
+	background: -webkit-linear-gradient(-45deg, var(--color-data-centers-hover) 0%, var(--color-data-centers-hover) 50%, var(--color-data-centers) 50%, var(--color-data-centers) 100%);
+	background: -o-linear-gradient(-45deg, var(--color-data-centers-hover) 0%, var(--color-data-centers-hover) 50%, var(--color-data-centers) 50%, var(--color-data-centers) 100%);
+	background: -ms-linear-gradient(-45deg, var(--color-data-centers-hover) 0%, var(--color-data-centers-hover) 50%, var(--color-data-centers) 50%, var(--color-data-centers) 100%);
+	background: linear-gradient(135deg, var(--color-data-centers-hover) 0%, var(--color-data-centers-hover) 50%, var(--color-data-centers) 50%, var(--color-data-centers) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-data-centers)', endColorstr='var(--color-data-centers-hover)', GradientType=1 );
+}
+.priority-public-cloud .postContent h4.entry-title {
+	border-color: var(--color-public-cloud);
+}
+.priority-public-cloud .postContent h4.entry-title:before {
+	background: var(--color-public-cloud-hover);
+	background: -moz-linear-gradient(-45deg, var(--color-public-cloud-hover) 0%, var(--color-public-cloud-hover) 50%, var(--color-public-cloud) 50%, var(--color-public-cloud) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--color-public-cloud-hover)), color-stop(50%, var(--color-public-cloud-hover)), color-stop(50%, var(--color-public-cloud)), color-stop(100%, var(--color-public-cloud)));
+	background: -webkit-linear-gradient(-45deg, var(--color-public-cloud-hover) 0%, var(--color-public-cloud-hover) 50%, var(--color-public-cloud) 50%, var(--color-public-cloud) 100%);
+	background: -o-linear-gradient(-45deg, var(--color-public-cloud-hover) 0%, var(--color-public-cloud-hover) 50%, var(--color-public-cloud) 50%, var(--color-public-cloud) 100%);
+	background: -ms-linear-gradient(-45deg, var(--color-public-cloud-hover) 0%, var(--color-public-cloud-hover) 50%, var(--color-public-cloud) 50%, var(--color-public-cloud) 100%);
+	background: linear-gradient(135deg, var(--color-public-cloud-hover) 0%, var(--color-public-cloud-hover) 50%, var(--color-public-cloud) 50%, var(--color-public-cloud) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-public-cloud)', endColorstr='var(--color-public-cloud-hover)', GradientType=1 );
+}
+.priority-security .postContent h4.entry-title {
+	border-color: var(--color-security);
+}
+.priority-security .postContent h4.entry-title:before {
+	background: var(--color-security-hover);
+	background: -moz-linear-gradient(-45deg, var(--color-security-hover) 0%, var(--color-security-hover) 50%, var(--color-security) 50%, var(--color-security) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--color-security-hover)), color-stop(50%, var(--color-security-hover)), color-stop(50%, var(--color-security)), color-stop(100%, var(--color-security)));
+	background: -webkit-linear-gradient(-45deg, var(--color-security-hover) 0%, var(--color-security-hover) 50%, var(--color-security) 50%, var(--color-security) 100%);
+	background: -o-linear-gradient(-45deg, var(--color-security-hover) 0%, var(--color-security-hover) 50%, var(--color-security) 50%, var(--color-security) 100%);
+	background: -ms-linear-gradient(-45deg, var(--color-security-hover) 0%, var(--color-security-hover) 50%, var(--color-security) 50%, var(--color-security) 100%);
+	background: linear-gradient(135deg, var(--color-security-hover) 0%, var(--color-security-hover) 50%, var(--color-security) 50%, var(--color-security) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-public-cloud)', endColorstr='var(--color-public-cloud-hover)', GradientType=1 );
+}
+.digital-workspace hr,
+.priority-digital-workspace hr {
+	background-color: var(--color-digital-workspace);
+}
+.data-centers hr,
+.priority-data-centers hr {
+	background-color: var(--color-data-centers);
+}
+.public-cloud hr,
+.priority-public-cloud hr {
+	background-color: var(--color-public-cloud);
+}
+.security hr,
+.priority-security hr {
+	background-color: var(--color-security);
+}
+.vmworld hr,
+.priority-vmworld hr {
+	background-color: var(--color-vmworld);
+}
+.explore.vmworld {
+	background-color: var(--color-vmworld);
+	color: var(--color-white);
+}
+.explore.vmworld:hover {
+	background-color: var(--color-vmworld-hover);
+	color: var(--color-white);
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.explore.data-centers {
+	background-color: var(--color-data-centers);
+	color: var(--color-white);
+}
+.explore.digital-workspace {
+	background-color: var(--color-digital-workspace);
+	color: var(--color-white);
+}
+.explore.public-cloud {
+	background-color: var(--color-public-cloud);
+	color: var(--color-white);
+}
+.explore.security {
+	background-color: var(--color-security);
+	color: var(--color-white);
+}
+.explore.data-centers:hover {
+	background-color: var(--color-data-centers-hover);
+	color: var(--color-white);
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.explore.digital-workspace:hover {
+	background-color: var(--color-digital-workspace-hover);
+	color: var(--color-white);
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.explore.public-cloud:hover {
+	background-color: var(--color-public-cloud-hover);
+	color: var(--color-white);
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.explore.security:hover {
+	background-color: var(--color-security-hover);
+	color: var(--color-white);
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.single .post.priority-vmworld header {
+	background: var(--color-vmworld);
+}
+.single .post.priority-public-cloud header {
+	background: var(--color-public-cloud);
+}
+.single .post.priority-data-centers header {
+	background: var(--color-data-centers);
+}
+.single .post.priority-digital-workspace header {
+	background: var(--color-digital-workspace);
+}
+.single .post.priority-security header {
+	background: var(--color-security);
+}
+.data-centers .comments-area a {
+	color: var(--color-data-centers);
+}
+.data-centers .comments-area a:active, .data-centers .comments-area a:hover {
+	color: var(--color-data-centers-hover);
+}
+.vmworld .comments-area a {
+	color: var(--color-vmworld);
+}
+.vmworld .comments-area a:active, .vmworld .comments-area a:hover {
+	color: var(--color-vmworld-hover);
+}
+.digital-workspace .comments-area a {
+	color: var(--color-digital-workspace);
+}
+.digital-workspace .comments-area a:active, .digital-workspace .comments-area a:hover {
+	color: var(--color-digital-workspace-hover);
+}
+.public-cloud .comments-area a {
+	color: var(--color-public-cloud);
+}
+.public-cloud .comments-area a:active, .public-cloud .comments-area a:hover {
+	color: var(--color-public-cloud-hover);
+}
+.security .comments-area a {
+	color: var(--color-security);
+}
+.security .comments-area a:active, .security .comments-area a:hover {
+	color: var(--color-security-hover);
+}
+.vmworld .comments-area .button {
+	background: var(--color-vmworld);
+}
+.vmworld .comments-area .button:active, .vmworld .comments-area .button:hover {
+	background: var(--color-vmworld-hover);
+}
+.data-centers .comments-area .button {
+	background: var(--color-data-centers);
+	color: var(--color-white);
+}
+.data-centers .comments-area .button:active, .data-centers .comments-area .button:hover {
+	background: var(--color-data-centers-hover);
+	color: var(--color-white);
+}
+.digital-workspace .comments-area .button {
+	background: var(--color-digital-workspace);
+	color: var(--color-white);
+}
+.digital-workspace .comments-area .button:active, .digital-workspace .comments-area .button:hover {
+	background: var(--color-digital-workspace-hover);
+	color: var(--color-white);
+}
+.public-cloud .comments-area .button {
+	background: var(--color-public-cloud);
+	color: var(--color-white);
+}
+.public-cloud .comments-area .button:active, .public-cloud .comments-area .button:hover {
+	background: var(--color-public-cloud-hover);
+	color: var(--color-white);
+}
+.security .comments-area .button {
+	background: var(--color-security);
+	color: var(--color-white);
+}
+.security .comments-area .button:active, .security .comments-area .button:hover {
+	background: var(--color-security-hover);
+	color: var(--color-white);
+}
+.sitemap h4.data-centers {
+	background: var(--color-data-centers);
+	padding: 0 0.25rem;
+	color: var(--color-white);
+}
+.sitemap h4.digital-workspace {
+	background: var(--color-digital-workspace);
+	padding: 0 0.25rem;
+	color: var(--color-white);
+}
+.sitemap h4.public-cloud {
+	background: var(--color-public-cloud);
+	padding: 0 0.25rem;
+	color: var(--color-white);
+}
+.sitemap h4.security {
+	background: var(--color-security);
+	padding: 0 0.25rem;
+	color: var(--color-white);
+}
+.sitemap h4.vmworld {
+	background: var(--color-vmworld);
+	padding: 0 0.25rem;
+	color: var(--color-white);
+}
+.postThumbnail img {
+	transition: all 0.25s linear;
+}
+.shadow:hover .postThumbnail img {
+
+}
+.priority-data-centers .postThumbnail {
+	background: var(--color-data-centers) !important;
+}
+.priority-digital-workspace .postThumbnail {
+	background: var(--color-digital-workspace) !important;
+}
+.priority-public-cloud .postThumbnail {
+	background: var(--color-public-cloud) !important;
+}
+.priority-security .postThumbnail {
+	background: var(--color-security) !important;
+}
+.priority-vmworld .postThumbnail {
+	background: var(--color-vmworld) !important;
+}

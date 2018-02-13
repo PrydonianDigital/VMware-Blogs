@@ -1,0 +1,1230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-02-09 10:02+0000\n"
+"PO-Revision-Date: 2018-02-13 11:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr "Pagina niet gevonden"
+
+#: 404.php:37
+msgid "Sorry, the page you requested was not found."
+msgstr "Sorry, de opgevraagde pagina is niet gevonden."
+
+#: 404.php:39
+msgid "If you're having trouble locating a destination on "
+msgstr ""
+"Zet deze aan wanneer je problemen ondervindt met mensen die documenten "
+"downloaden."
+
+#: CMB2/includes/CMB2.php:178
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr "Metabox configuratie vereist een ID parameter."
+
+#: CMB2/includes/CMB2.php:580
+msgid "Click to toggle"
+msgstr "Klik om te schakelen"
+
+#: CMB2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr "Probeer opnieuw"
+
+#: CMB2/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr "Verwijder embedded"
+
+#: CMB2/includes/CMB2_Ajax.php:189 CMB2/includes/helper-functions.php:105
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."msgstr "Geen oEmbed resultaten gevonden voor %s. Meer info op %2$s."
+
+#: CMB2/includes/CMB2_Base.php:422
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favour of the \"%1$s\" "
+"parameter."
+msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:426
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favour of the \"%1$s\" parameter."
+msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:456
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:458
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:491 CMB2/includes/CMB2_Hookup_Base.php:100
+#: CMB2/includes/CMB2_Options_Hookup.php:336
+#: CMB2/includes/types/CMB2_Type_Base.php:149
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: CMB2/includes/CMB2_Base.php:506 CMB2/includes/types/CMB2_Type_Base.php:133
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: CMB2/includes/CMB2_Field.php:1228
+msgid "Add Group"
+msgstr "Groep toevoegen"
+
+#: CMB2/includes/CMB2_Field.php:1229
+msgid "Remove Group"
+msgstr "Verwijder groep"
+
+#: CMB2/includes/CMB2_Field.php:1260 CMB2/includes/CMB2_Field.php:1264
+msgid "None"
+msgstr "Geen"
+
+#: CMB2/includes/CMB2_Field.php:1375
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr "Sorry, dit veld heeft geen cmb_id opgegeven."
+
+#: CMB2/includes/CMB2_Field_Display.php:432 CMB2/includes/CMB2_JS.php:204
+#: CMB2/includes/types/CMB2_Type_File_Base.php:79
+msgid "File:"
+msgstr "Bestand:"
+
+#: CMB2/includes/CMB2_Hookup_Base.php:42
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr "%1$s moet worden geïmplementeerd door de uitgebreide klasse."
+
+#: CMB2/includes/CMB2_JS.php:143 CMB2/includes/CMB2_JS.php:184
+msgid "Clear"
+msgstr "Duidelijk"
+
+#: CMB2/includes/CMB2_JS.php:144
+msgid "Default"
+msgstr "Standaard"
+
+#: CMB2/includes/CMB2_JS.php:145
+msgid "Select Color"
+msgstr "Selecteer kleur"
+
+#: CMB2/includes/CMB2_JS.php:146
+msgid "Current Color"
+msgstr "Huidige kleur"
+
+#: CMB2/includes/CMB2_JS.php:174
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "dd/mm/yyyy"
+
+#: CMB2/includes/CMB2_JS.php:175
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "Zondag, Maandag, Dinsdag, Woensdag, Donderdag, Vrijdag, Zaterdag"
+
+#: CMB2/includes/CMB2_JS.php:176
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "Zo, Ma, Di, Wo, Do, Vr, Za"
+
+#: CMB2/includes/CMB2_JS.php:177
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "Zon, Maan, Dins, Woens, Donder, Vrij, Zat"
+
+#: CMB2/includes/CMB2_JS.php:178
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+"Januari, Februari, Maart, April, Mei, Juni, Juli, Augustus, September, "
+"Oktober, November, December"
+
+#: CMB2/includes/CMB2_JS.php:179
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr "Jan, Feb, Mrt, Apr, Mei, Jun, Jul, Aug, Sep, Okt, Nov, Dec"
+
+#: CMB2/includes/CMB2_JS.php:180 functions/theme.php:224
+msgid "Next"
+msgstr "Volgende"
+
+#: CMB2/includes/CMB2_JS.php:181
+msgid "Prev"
+msgstr "Vorige"
+
+#: CMB2/includes/CMB2_JS.php:182
+msgid "Today"
+msgstr "Vandaag"
+
+#: CMB2/includes/CMB2_JS.php:183 CMB2/includes/CMB2_JS.php:193
+msgid "Done"
+msgstr "Klaar"
+
+#: CMB2/includes/CMB2_JS.php:187
+msgid "Choose Time"
+msgstr "Kies tijd"
+
+#: CMB2/includes/CMB2_JS.php:188
+msgid "Time"
+msgstr "Tijdstip"
+
+#: CMB2/includes/CMB2_JS.php:189
+msgid "Hour"
+msgstr "Uur"
+
+#: CMB2/includes/CMB2_JS.php:190
+msgid "Minute"
+msgstr "Minuut"
+
+#: CMB2/includes/CMB2_JS.php:191
+msgid "Second"
+msgstr "Tweede"
+
+#: CMB2/includes/CMB2_JS.php:192
+msgid "Now"
+msgstr "Zojuist"
+
+#: CMB2/includes/CMB2_JS.php:194
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr "uu:mm TT"
+
+#: CMB2/includes/CMB2_JS.php:200
+msgid "Use this file"
+msgstr "Gebruik dit bestand"
+
+#: CMB2/includes/CMB2_JS.php:201
+msgid "Use these files"
+msgstr "Gebruik deze bestanden"
+
+#: CMB2/includes/CMB2_JS.php:202 CMB2/includes/types/CMB2_Type_File_Base.php:64
+msgid "Remove Image"
+msgstr "Verwijder afbeelding"
+
+#: CMB2/includes/CMB2_JS.php:203 CMB2/includes/CMB2_Types.php:412
+#: CMB2/includes/types/CMB2_Type_File_Base.php:84
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: CMB2/includes/CMB2_JS.php:205 CMB2/includes/types/CMB2_Type_File_Base.php:82
+msgid "Download"
+msgstr "Download"
+
+#: CMB2/includes/CMB2_JS.php:206
+msgid "Select / Deselect All"
+msgstr "Selecteer / Deselecteer alles"
+
+#: CMB2/includes/CMB2_Options_Hookup.php:126
+msgid "Nothing to update."
+msgstr "Niks in te stellen hier."
+
+#: CMB2/includes/CMB2_Options_Hookup.php:130
+msgid "Settings updated."
+msgstr "Instellingen bijgewerkt."
+
+#: CMB2/includes/CMB2_Types.php:231
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr "Aangepaste CMB2-veldtypeklassen moeten CMB2_Type_Base verlengen."
+
+#: CMB2/includes/CMB2_Types.php:349
+msgid "Add Row"
+msgstr "Voeg rij toe"
+
+#: CMB2/includes/CMB2_Types.php:412
+msgid "Remove Row"
+msgstr "Rij verwijderen"
+
+#: CMB2/includes/CMB2_hookup.php:181
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+"Term Metadata is een WordPress > 4.4 functie. Up-grade de WordPress "
+"installatie."
+
+#: CMB2/includes/CMB2_hookup.php:185
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr "Term metaboxes configuratie heeft een 'taxonomieën' parameter nodig."
+
+#: CMB2/includes/CMB2_hookup.php:458
+#, php-format
+msgid "Toggle panel: %s"
+msgstr "Wissel paneel %s"
+
+#: CMB2/includes/helper-functions.php:303
+msgid "Save"
+msgstr "Oplaan"
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr "Dit vak heeft geen leesrechten."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr "Dit vak heeft geen schrijfrechten."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+"Geen vak gevonden door dat ID. Een box moet worden geregistreerd met de "
+"parameter \"show_in_rest\" geconfigureerd."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr "Een voor de mens leesbare beschrijving van het object."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr "De ID voor het object."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr "De titel van het object."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr "Bevat de geregistreerde velden voor het vak in het antwoord."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+"Bevat de volledig weergegeven kenmerken, 'form_open', 'form_close', evenals "
+"de in de wacht geplaatste 'js_dependencies'-scriptgrepen en' "
+"css_dependencies 'stylesheet-handles."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr "Geen box gevonden."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+"Bevat het vakobject waarop de velden zijn geregistreerd in het antwoord."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+"Wanneer het argument '_gendered' wordt doorgegeven, worden de renderbare "
+"veldkenmerken volledig teruggegeven geretourneerd. Standaard worden de namen "
+"van de terugroepacties voor de renderbare kenmerken geretourneerd."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+"Om de waarde van het veld te bekijken of te wijzigen, zijn de argumenten "
+"'object_id' en 'object_type' vereist."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+"CMB2-veldwaarde kan niet worden bijgewerkt zonder de opgegeven "
+"waardeparameter."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+"CMB2-veldwaarde kan niet worden gewijzigd zonder dat de parameters object_id "
+"en object_type zijn opgegeven."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr "Geen veld gevonden door dat ID."
+
+#: CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr "Waarde Fout voor %s"
+
+#: CMB2/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+"Methode '%s' niet geïmplementeerd. Moet overschreven worden in subklasse."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:35
+#: CMB2/includes/shim/WP_REST_Controller.php:47
+#: CMB2/includes/shim/WP_REST_Controller.php:59
+#: CMB2/includes/shim/WP_REST_Controller.php:71
+#: CMB2/includes/shim/WP_REST_Controller.php:83
+#: CMB2/includes/shim/WP_REST_Controller.php:95
+#: CMB2/includes/shim/WP_REST_Controller.php:107
+#: CMB2/includes/shim/WP_REST_Controller.php:119
+#: CMB2/includes/shim/WP_REST_Controller.php:131
+#: CMB2/includes/shim/WP_REST_Controller.php:143
+#: CMB2/includes/shim/WP_REST_Controller.php:155
+#: CMB2/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+"Methode '%s' niet geïmplementeerd. Moet overschreven worden in subklasse."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr "Huidige pagina van de collectie."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+"Maximaal aantal items dat in de resultaatreeks moet worden geretourneerd."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr "Beperk de resultaten op die welke overeenkomen met een tekenreeks."
+
+#: CMB2/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+"Scope waaronder het verzoek wordt gedaan; bepaalt de velden die aanwezig "
+"zijn in reactie."
+
+#: CMB2/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr "Bestand toevoegen of uploaden"
+
+#: CMB2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr "Bestanden toevoegen of uploaden"
+
+#: CMB2/includes/types/CMB2_Type_Taxonomy_Base.php:100
+msgid "No terms"
+msgstr "Geen voorwaarden"
+
+#: comments.php:10
+msgid "Comments"
+msgstr "Reacties"
+
+#: comments.php:33 parts/global/comments-template.php:36
+msgid "Comment navigation"
+msgstr "Navigeer door reacties"
+
+#: comments.php:34 parts/global/comments-template.php:37
+msgid "&larr; Older Comments"
+msgstr "Oude reacties"
+
+#: comments.php:35 parts/global/comments-template.php:38
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwe reacties;"
+
+#: comments.php:42 parts/global/comments-template.php:43
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:52
+msgid "No comments yet"
+msgstr "Nog geen reacties"
+
+#: comments.php:68
+msgid "Add a comment"
+msgstr "Voeg een opmerking toe"
+
+#: comments.php:86
+msgid "Comments are closed"
+msgstr "Reacties zijn gesloten"
+
+#: emails/templates/partials/default-message.php:1
+msgid "Here you will see the email content that is normally sent in WordPress."
+msgstr ""
+"Deze e-mail wordt verstuurd naar de gebruiker bij het annuleren van een "
+"afspraak. Variabelen die je kunt gebruiken:"
+
+#: emails/templates/partials/default-message.php:2
+msgid ""
+"The email template is responsive an fully customizable. I hope you enjoy it!"
+msgstr ""
+"De e-mailtemplate is responsive en is een volledig aanpasbaar. Ik hoop dat u "
+"er plezier van heeft!"
+
+#: emails/templates/partials/default-message.php:3
+#, php-format
+msgid ""
+"We would like to ask you a little favour. If you are happy with the plugin "
+"and can take a minute please <a href=\"%s\" target=\"_blank\">leave a nice "
+"review</a> on WordPress. It will be a tremendous help for us!"
+msgstr ""
+"Wij willen u vragen ons een beetje plezier te doen. Als u tevreden bent met "
+"de plugin en u heeft een minuutje tijd plaats dan <a href=\"%s\" target="
+"\"_blank\">een mooie recensie</a> op WordPress plugin-pagina. Het zal voor "
+"ons een geweldige steun zijn!"
+
+#: emails/templates/partials/default-message.php:6
+msgid ""
+"You can use any of these placeholders in your emails content or templates "
+"and they will be automatically replaced"
+msgstr ""
+"U kunt een van deze tijdelijke aanduidingen in de inhoud van uw e-mails of "
+"templates gebruiken; ze zullen automatisch worden vervangen"
+
+#: footer.php:27 functions/menus.php:11
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: footer.php:45
+msgid "Back to top of page"
+msgstr "Naar boven"
+
+#: functions/menus.php:5 header.php:88
+msgid "Priorities Top Menu"
+msgstr "Bovenste Menu"
+
+#: functions/menus.php:6 header.php:37
+msgid "Priorities Side Menu"
+msgstr "Zoeken op GildaArt"
+
+#: functions/menus.php:7 header.php:23
+msgid "Language Menu"
+msgstr "Taalmenu"
+
+#: functions/menus.php:8
+msgid "Top Icon Menu"
+msgstr "Ga naar de top (Icon 2)"
+
+#: functions/menus.php:9 page-my-account.php:34 template-my-account.php:40
+msgid "My Account"
+msgstr "Mijn Account"
+
+#: functions/menus.php:10 header.php:108
+msgid "Social Media"
+msgstr "Sociale media"
+
+#: functions/menus.php:12
+msgid "Mobile Menu"
+msgstr "Mobiel Menu"
+
+#: functions/menus.php:83
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: functions/menus.php:85
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: functions/meta.php:8 functions/meta.php:15
+msgid "Language Direction"
+msgstr "Schrijfrichting"
+
+#: functions/meta.php:18
+msgid "LTR"
+msgstr "LTR"
+
+#: functions/meta.php:19
+msgid "RTL"
+msgstr "RTL"
+
+#: functions/meta.php:30
+msgid "VMWorld Info"
+msgstr "VMWorld Info"
+
+#: functions/meta.php:36
+msgid "Start Date Of Event"
+msgstr "Start datum"
+
+#: functions/meta.php:42
+msgid "End Date Of Event"
+msgstr "Datum activiteit"
+
+#: functions/meta.php:48
+msgid "Location"
+msgstr "Locatie"
+
+#: functions/meta.php:53
+msgid "Ticket Link"
+msgstr "Klacht"
+
+#: functions/meta.php:58
+msgid "Post Video"
+msgstr "Video Bericht"
+
+#: functions/meta.php:64
+msgid "URL of video"
+msgstr "Aantal uur video"
+
+#: functions/meta.php:69
+msgid "Post White Paper"
+msgstr "White Paper"
+
+#: functions/meta.php:75
+msgid "White Paper Title"
+msgstr "White Paper"
+
+#: functions/meta.php:80
+msgid "White Paper Description"
+msgstr "White Paper"
+
+#: functions/meta.php:85
+msgid "White Paper Cover Image"
+msgstr "Coverfoto"
+
+#: functions/meta.php:90
+msgid "White Paper File"
+msgstr "erp White Paper"
+
+#: functions/meta.php:95
+msgid "Form"
+msgstr "Formulier"
+
+#: functions/meta.php:107
+msgid "Carousel Link"
+msgstr "Carousel"
+
+#: functions/meta.php:113
+msgid "Link URL"
+msgstr ""
+
+#: functions/meta.php:118
+msgid "Slide Text"
+msgstr "Slide tekst"
+
+#: functions/meta.php:131
+msgid "User Profile"
+msgstr "Gebruikersprofiel"
+
+#: functions/meta.php:137
+msgid "Extra Info"
+msgstr "Extra informatie"
+
+#: functions/meta.php:143 parts/my-account/edit-account.php:15
+msgid "Phone"
+msgstr "Telefoon"
+
+#: functions/meta.php:148 parts/my-account/edit-account.php:19
+msgid "Company"
+msgstr "Onderneming"
+
+#: functions/meta.php:153 parts/my-account/edit-account.php:27
+msgid "Country"
+msgstr "Land"
+
+#: functions/post_types.php:7
+msgctxt "Carousel General Name"
+msgid "Carousels"
+msgstr "carrousels"
+
+#: functions/post_types.php:8
+msgctxt "Carousel Singular Name"
+msgid "Carousel"
+msgstr "Carousel"
+
+#: functions/post_types.php:9 functions/post_types.php:37
+msgid "Carousels"
+msgstr "carrousels"
+
+#: functions/post_types.php:10 functions/post_types.php:36
+msgid "Carousel"
+msgstr "Carousel"
+
+#: functions/post_types.php:11
+msgid "Carousel Archives"
+msgstr "Carousel"
+
+#: functions/post_types.php:12
+msgid "Carousel Attributes"
+msgstr "Carousel"
+
+#: functions/post_types.php:13
+msgid "Parent Carousel:"
+msgstr "Hoofd carrousel:"
+
+#: functions/post_types.php:14
+msgid "All Carousels"
+msgstr "Alle carrousels"
+
+#: functions/post_types.php:15
+msgid "Add New Carousel"
+msgstr "Nieuwe carrousel toevoegen"
+
+#: functions/post_types.php:16
+msgid "Add New"
+msgstr "Nieuw artikel"
+
+#: functions/post_types.php:17
+msgid "New Carousel"
+msgstr "Nieuwe carrousel naam"
+
+#: functions/post_types.php:18
+msgid "Edit Carousel"
+msgstr "Bewerk carrousel"
+
+#: functions/post_types.php:19
+msgid "Update Carousel"
+msgstr "Carrousel bijwerken"
+
+#: functions/post_types.php:20
+msgid "View Carousel"
+msgstr "Carousel"
+
+#: functions/post_types.php:21
+msgid "View Carousels"
+msgstr ""
+
+#: functions/post_types.php:22
+msgid "Search Carousels"
+msgstr "Doorzoek carrousels"
+
+#: functions/post_types.php:23
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: functions/post_types.php:24
+msgid "Not found in Trash"
+msgstr "Niet gevonden in prullenbak"
+
+#: functions/post_types.php:25
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: functions/post_types.php:26
+msgid "Set featured image"
+msgstr "Uitgelichte afbeelding instellen"
+
+#: functions/post_types.php:27
+msgid "Remove featured image"
+msgstr "Verwijder uitgelichte afbeelding"
+
+#: functions/post_types.php:28
+msgid "Use as featured image"
+msgstr "Gebruik als uitgelichte afbeelding"
+
+#: functions/post_types.php:29
+msgid "Insert into Carousel"
+msgstr "Plaats in item"
+
+#: functions/post_types.php:30
+msgid "Uploaded to this item"
+msgstr "Geupload in dit item"
+
+#: functions/post_types.php:31
+msgid "Carousels list"
+msgstr "Leeslijst"
+
+#: functions/post_types.php:32
+msgid "Carousels list navigation"
+msgstr "Navigeer door reacties"
+
+#: functions/post_types.php:33
+msgid "Filter Carousels list"
+msgstr "Filterlijst carrousels"
+
+#: functions/sidebars.php:7
+msgid "Footer 1 Widgets"
+msgstr "Voettekst 1"
+
+#: functions/sidebars.php:15
+msgid "Footer 2 Widgets"
+msgstr "Voettekst 2"
+
+#: functions/sidebars.php:23
+msgid "Footer 3 Widgets"
+msgstr "Voettekst 3"
+
+#: functions/sidebars.php:31
+msgid "Downloads"
+msgstr "Downloads"
+
+#: functions/taxonomies.php:6
+msgctxt "Taxonomy General Name"
+msgid "Priorities"
+msgstr "Prioriteiten"
+
+#: functions/taxonomies.php:7
+msgctxt "Taxonomy Singular Name"
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: functions/taxonomies.php:8 search.php:38
+msgid "Priorities"
+msgstr "Prioriteiten"
+
+#: functions/taxonomies.php:9
+msgid "All Priorities"
+msgstr "Alle prioriteiten"
+
+#: functions/taxonomies.php:10
+msgid "Parent Priority"
+msgstr "Hoofd"
+
+#: functions/taxonomies.php:11
+msgid "Parent Priority:"
+msgstr "Ouderlijke prioriteit:"
+
+#: functions/taxonomies.php:12
+msgid "New Priority"
+msgstr "Nieuwe prioriteit"
+
+#: functions/taxonomies.php:13
+msgid "Add New Priority"
+msgstr "Nieuwe prioriteit"
+
+#: functions/taxonomies.php:14
+msgid "Edit Priority"
+msgstr "Prioriteit bewerken"
+
+#: functions/taxonomies.php:15
+msgid "Update Priority"
+msgstr "Update Prioriteit:"
+
+#: functions/taxonomies.php:16
+msgid "View Priority"
+msgstr "Prioriteit"
+
+#: functions/taxonomies.php:17
+msgid "Separate Priorities with commas"
+msgstr "Onderscheiden met komma's"
+
+#: functions/taxonomies.php:18
+msgid "Add or remove Priorities"
+msgstr "Toevoegen of verwijderen"
+
+#: functions/taxonomies.php:19
+msgid "Choose from the most used"
+msgstr "Kies uit de meest gebruikte"
+
+#: functions/taxonomies.php:20
+msgid "Popular Priorities"
+msgstr "Bovenste Menu"
+
+#: functions/taxonomies.php:21
+msgid "Search Priorities"
+msgstr "Prioriteiten"
+
+#: functions/taxonomies.php:22
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+#: functions/taxonomies.php:23
+msgid "No items"
+msgstr "Geen items"
+
+#: functions/taxonomies.php:24
+msgid "Priorities list"
+msgstr "Prioriteiten"
+
+#: functions/taxonomies.php:25
+msgid "Priorities list navigation"
+msgstr "Trefwoordenlijst-navigatie"
+
+#: functions/theme.php:24
+msgid "Subscriber"
+msgstr "Abonnee"
+
+#: functions/theme.php:35
+msgid "Contributor"
+msgstr "Bijdrager"
+
+#: functions/theme.php:208
+msgid "Pagination"
+msgstr "Paginatie"
+
+#: functions/theme.php:210
+msgid "First"
+msgstr "Eerste"
+
+#: functions/theme.php:214
+msgid "Previous"
+msgstr "Vorige"
+
+#: functions/theme.php:227
+msgid "Last"
+msgstr "Achternaam"
+
+#: functions/theme.php:252
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions/theme.php:256
+msgid "Your comment is awaiting moderation."
+msgstr "Uw reactie wacht op goedkeuring."
+
+#: header.php:66
+msgid "Icon Menu"
+msgstr "Menu icoon"
+
+#: header.php:73
+msgid "Open Menu"
+msgstr "Menu openen"
+
+#: header.php:75
+msgid "Edit"
+msgstr "Bewerken"
+
+#: header.php:77
+msgid "Choose Language"
+msgstr "Taal kiezen"
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Morning"
+msgstr "Goedemorgen"
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Afternoon"
+msgstr "Goedemiddag"
+
+#: page-my-account.php:14 template-edit-account.php:20
+#: template-my-account.php:20 template-my-downloads.php:20
+#: template-my-reading-list.php:20 template-my-subscriptions.php:20
+msgid "Good Evening"
+msgstr "Distributielijsten"
+
+#: page-my-account.php:24 template-edit-account.php:30
+#: template-my-account.php:30 template-my-downloads.php:30
+#: template-my-reading-list.php:30 template-my-subscriptions.php:30
+msgid "Account Menu"
+msgstr "Account Menu"
+
+#: parts/global/comments-template.php:15
+#, php-format
+msgctxt "comments title"
+msgid "One thought on \"%2$s\""
+msgid_plural "%1$s thoughts on \"%2$s\""
+msgstr[0] "Eén reactie op “%2$s”"
+msgstr[1] "%1$s reactie op “%2$s”"
+
+#: parts/global/search-form.php:13 parts/global/search-form.php:15
+#: search.php:16 search.php:17
+msgid "What are you looking for?"
+msgstr "Waar ben je naar op zoek?"
+
+#: parts/global/search-form.php:19 search.php:34
+msgid "Search"
+msgstr "Zoeken"
+
+#: parts/global/share-post.php:2
+msgid "Share on Facebook"
+msgstr "Deel via Facebook"
+
+#: parts/global/share-post.php:3
+msgid "Share on Twitter"
+msgstr "Deel via Twitter"
+
+#: parts/global/share-post.php:4
+msgid "Share on LinkedIn"
+msgstr "Deel op Linkedin"
+
+#: parts/home/explore-topics.php:5
+msgid "Explore by topic"
+msgstr "Hoe zoeken"
+
+#: parts/home/explore-topics.php:28
+#, php-format
+msgid "View all post filed under %s"
+msgstr "Bekijk alle berichten geplaatst onder %s"
+
+#: parts/home/featured-posts.php:24 parts/home/home-carousel.php:69
+#: parts/home/latest-posts.php:35 parts/home/trending-posts.php:42
+#: parts/loop/author-page.php:27 parts/loop/blog-page.php:46
+msgid "No posts found"
+msgstr "Geen berichten gevonden"
+
+#: parts/home/latest-posts.php:5
+msgid "Latest Posts"
+msgstr "Laatste artikelen"
+
+#: parts/home/trending-posts.php:5
+msgid "Trending"
+msgstr "Trending"
+
+#: parts/loop/author-page.php:7
+msgid "Other posts by "
+msgstr "… andere bijdragen van"
+
+#: parts/loop/loop-post.php:56 parts/single/post-header.php:51
+msgid "Posted on"
+msgstr "Geplaatst op"
+
+#: parts/loop/loop-post.php:56
+msgid "by"
+msgstr "door"
+
+#: parts/loop/loop-post.php:56 parts/single/single-aside.php:7
+#: parts/single/single-aside.php:9 parts/single/single-status.php:7
+#: parts/single/single-status.php:9 parts/single/single-video.php:7
+#: parts/single/single-video.php:9 parts/single/single.php:7
+#: parts/single/single.php:9
+msgid "Read more posts by "
+msgstr "Meer berichten van"
+
+#: parts/loop/loop-post.php:85
+msgid "Read more"
+msgstr "Lees meer"
+
+#: parts/my-account/edit-account.php:1
+msgid "Update My Information"
+msgstr "Update mijn informatie"
+
+#: parts/my-account/edit-account.php:7 parts/my-account/login-register.php:92
+msgid "First Name"
+msgstr "Voornaam"
+
+#: parts/my-account/edit-account.php:11 parts/my-account/login-register.php:95
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: parts/my-account/edit-account.php:23
+msgid "Website"
+msgstr "Website"
+
+#: parts/my-account/edit-account.php:246
+msgid "Update"
+msgstr "Bijwerken"
+
+#: parts/my-account/login-register.php:1
+msgid "Hello Guest, please log in or register"
+msgstr "Hallo gast, log aub in of registreer"
+
+#: parts/my-account/login-register.php:8 parts/my-account/login-register.php:17
+msgid "Log In"
+msgstr "Inloggen"
+
+#: parts/my-account/login-register.php:9 parts/my-account/login-register.php:43
+#: parts/my-account/login-register.php:112
+msgid "Register"
+msgstr "Registreer"
+
+#: parts/my-account/login-register.php:10
+msgid "Forgot Password"
+msgstr "Wachtwoord vergeten"
+
+#: parts/my-account/login-register.php:57
+msgid "Fill out all fields marked *"
+msgstr "Vul alle velden volledig in *"
+
+#: parts/my-account/login-register.php:59
+msgid "Invalid email address."
+msgstr "Ongeldig email adres."
+
+#: parts/my-account/login-register.php:61
+msgid "Email already exists."
+msgstr "E-mail bestaat al."
+
+#: parts/my-account/login-register.php:63
+msgid "Password do not match."
+msgstr "Wachtwoorden komen niet overeen."
+
+#: parts/my-account/login-register.php:67
+msgid "Error on user creation."
+msgstr "Fout bij maken van gebruiker."
+
+#: parts/my-account/login-register.php:70
+msgid "You can now log in"
+msgstr "U kunt nu inloggen."
+
+#: parts/my-account/login-register.php:98
+msgid "Email"
+msgstr "Email"
+
+#: parts/my-account/login-register.php:101
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: parts/my-account/login-register.php:104
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: parts/my-account/login-register.php:107
+msgid "Repeat Password"
+msgstr "Herhaal wachtwoord"
+
+#: parts/my-account/login-register.php:121
+msgid "Password Reset"
+msgstr "Wachtwoord herstellen"
+
+#: parts/my-account/login-register.php:123
+msgid "Enter your username or email to reset your password."
+msgstr ""
+"Voer uw gebruikersnaam of e-mail in om het wachtwoord opnieuw in te stellen."
+
+#: parts/my-account/login-register.php:127
+msgid "Username or Email"
+msgstr "Gebruikersnaam of e-mailadres"
+
+#: parts/my-account/login-register.php:132
+msgid "Reset my password"
+msgstr "Herstel mijn wachtwoord"
+
+#: parts/my-account/login-register.php:133
+msgid "A message will be sent to your email address."
+msgstr "Een e-mail is verzonden naar je e-mailadres."
+
+#: parts/my-account/my-downloads.php:1
+msgid "My Downloads"
+msgstr "Mijn Downloads"
+
+#: parts/my-account/my-subscriptions.php:1
+msgid "My Subscriptions"
+msgstr "Mijn Abonnementen"
+
+#: parts/my-account/reading-list.php:1
+msgid "My Reading List"
+msgstr "Leeslijst"
+
+#: parts/my-account/reading-list.php:19
+msgid "Older Favorites"
+msgstr "Oude reacties"
+
+#: parts/my-account/reading-list.php:20
+msgid "Newer Favorites"
+msgstr "Nieuwere favorieten"
+
+#: parts/my-account/reading-list.php:23
+msgid "No articles added to your Reading List yet."
+msgstr "is toegevoegd aan uw lijst."
+
+#: parts/my-account/reset-password.php:1 parts/my-account/reset-password.php:39
+msgid "Reset Password"
+msgstr "Wachtwoord herinstellen"
+
+#: parts/my-account/reset-password.php:8
+msgid "The link you clicked on has expired"
+msgstr "De wachtwoord resetten link die je gebruikte is verlopen."
+
+#: parts/my-account/reset-password.php:26
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#: parts/my-account/reset-password.php:30
+msgid "Repeat new password"
+msgstr "Herhaal wachtwoord"
+
+#: parts/single/list-categories.php:3
+msgid "Category:"
+msgstr "Categorie:"
+
+#: parts/single/list-tags.php:1
+msgid "Tags:"
+msgstr "Tags:"
+
+#: parts/single/post-header.php:63
+msgid "Add to Reading List"
+msgstr "Naar boekenlijst"
+
+#: parts/single/post-header.php:71
+msgid "Log In to add to Reading List"
+msgstr "Naar boekenlijst"
+
+#: parts/single/related-posts.php:5
+msgid "Related Articles"
+msgstr "Gerelateerde artikelen"
+
+#: parts/single/related-posts.php:37
+msgid "No related posts found"
+msgstr "Geen berichten gevonden."
+
+#: parts/single/single-aside.php:29 parts/single/single-status.php:22
+#: parts/single/single-video.php:22 parts/single/single.php:22
+msgid ""
+"DISCLAIMER: this article is older than one year and may not be up to date "
+"with recent events or newly available information."
+msgstr ""
+
+#: parts/single/single-aside.php:104
+msgid "Register to download"
+msgstr "Downloaden"
+
+#: parts/single/single-aside.php:141
+msgid "Go to White Paper"
+msgstr "White Paper"
+
+#: parts/single/single-status.php:36 parts/single/single-status.php:42
+msgid "Get your tickets"
+msgstr "Jouw tickets"
+
+#: search.php:7
+msgid "Show Filters"
+msgstr "Filters weergeven"
+
+#: search.php:11
+msgid "Language"
+msgstr "Taal"
+
+#: search.php:42
+msgid "Asset Type"
+msgstr "Asset type"
+
+#: search.php:46
+msgid "Categories"
+msgstr "Categorieën"
+
+#: search.php:50
+msgid "Tags"
+msgstr "Tags"
+
+#: search.php:54
+msgid "Results"
+msgstr "Resultaten"
+
+#: search.php:58
+msgid " results found."
+msgstr "Gevonden resultaten."
+
+#: search.php:83
+msgid "No results"
+msgstr "Geen resultaten"
+
+#: searchwp-live-ajax-search/search-results.php:16
+msgid "No results found."
+msgstr "Geen resultaten gevonden."
+
+#: template-sitemap.php:27
+msgid "Pages"
+msgstr "Pages"
+
+#: template-sitemap.php:57
+msgid "Posts"
+msgstr "Berichten"
+
+#. Theme Name of the plugin/theme
+msgid "VMware Blogs"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://vmwareemeablog.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Custom Wordpress theme for VMware EMEA Blogs"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mark Duwe"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://prydonian.digital"
+msgstr ""

@@ -1,0 +1,60 @@
+@import url('../css/vmware.css');
+@import url('../css/fonts.css');
+body.login {
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	color: #fff;
+}
+.login #login {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 600px;
+	padding: 1rem;
+	background: #717074;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-75%);
+	font-family: 'Proxima Nova', sans-serif;
+}
+.login h1 a {
+	background-image: url('../img/vmware-logo.png');
+	background-size: 200px;
+	width: 100%;
+	max-width: 200px;
+	height: 30px;
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+#login form {
+	background: transparent;
+	margin-top: 0;
+	padding: 1rem;
+	box-shadow: none;
+}
+.login label {
+	color: #fff;
+	font-family: 'Proxima Nova', sans-serif;
+}
+.login #backtoblog {
+	display: none !important;
+}
+.login #backtoblog a, .login #nav a,
+.login #backtoblog a:focus, .login #nav a:focus,
+.login #backtoblog a:hover, .login #nav a:hover {
+	color: #fff;
+}
+.message {
+	position: relative;
+	margin: 0 0 1rem 0;
+	padding: 1rem;
+	border: 1px solid rgba(10, 10, 10, 0.25) !important;
+	border-radius: 3px;
+	background-color: #e1faea !important;
+	color: #0a0a0a;
+	margin: 0 auto !important;
+}
