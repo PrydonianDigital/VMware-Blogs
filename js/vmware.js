@@ -2,6 +2,17 @@ jQuery(document).foundation();
 
 jQuery( document ).ready( function( $ ){
 
+	if(Cookies.get('vmw_biscuits')) {
+		$('#cookies').remove();
+	} else {
+		Cookies.set('vmw_biscuits', 'yes', { expires: 700, path: '/'  });
+	}
+
+	$('#removeCookies').on('click', function(e){
+		e.preventDefault();
+		$('#cookies').remove();
+	});
+
 	$('.owl-carousel').owlCarousel({
 		nav: true,
 		navText: ['<i class="fas fa-chevron-left" aria-hidden="true"></i>', '<i class="fas fa-chevron-right" aria-hidden="true"></i>'],

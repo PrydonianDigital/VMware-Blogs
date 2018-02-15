@@ -49,6 +49,21 @@
 
 		</footer>
 
+		<div data-sticky-container id="cookies">
+			<div class="row align-middle" data-sticky data-stick-to="bottom" data-margin-bottom="0">
+				<div class="cookies column">
+					<?php
+						$privacy = pll_get_post_translations( '133' );
+						$cookies = get_post($privacy[pll_current_language()]);
+					?>
+					<?php _e( 'This site uses cookies to improve the user experience. By using this site you agree to the ', 'vmw' ); ?><a href="<?php echo get_bloginfo( 'url' ); ?>/<?php echo $cookies->post_name; ?>" rel="nofollow"><?php _e( 'privacy policy', 'vmw' ); ?></a>
+				</div>
+				<div class="cookies column text-right">
+					<a class="button" id="removeCookies" href="#cookie_dismiss"><i class="fas fa-times"></i></a>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 </div>

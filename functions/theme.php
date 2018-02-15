@@ -76,11 +76,13 @@
 	function vmw_js() {
 		wp_enqueue_script( 'what', get_template_directory_uri() . '/js/vendor/what-input.js', false, '6.3.1', true );
 		wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/vendor/vmware.min.js', false, '6.3.1', true );
+		wp_enqueue_script( 'cookies', get_template_directory_uri() . '/js/vendor/cookies.js', false, '2.2.1', true );
 		wp_enqueue_script( 'owljs', get_template_directory_uri() . '/js/vendor/owl.js', false, '2.2.1', true );
 		wp_enqueue_script( 'vmw', get_template_directory_uri() . '/js/vmware.js', false, '1.5', true );
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'what' );
 		wp_enqueue_script( 'foundation' );
+		wp_enqueue_script( 'cookies' );
 		wp_enqueue_script( 'vmw' );
 	}
 	add_action( 'wp_enqueue_scripts', 'vmw_js' );
@@ -308,9 +310,11 @@
 	}
 
 	function add_menu_icons_styles(){
-
 		echo '<style>
 		@import url("//use.fontawesome.com/releases/v5.0.6/css/all.css");
+		.pll_icon_edit {
+			display: none !important;
+		}
 		#adminmenu #menu-posts-carousel div.wp-menu-image:before, #dashboard_right_now .carousel-count a:before {
 			content: "\f233";
 		}
@@ -338,7 +342,6 @@
 			text-align: center;
 		}
 		</style>';
-
 	}
 	add_action( 'admin_head', 'add_menu_icons_styles' );
 

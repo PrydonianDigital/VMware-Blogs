@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VMware Blogs\n"
 "POT-Creation-Date: 2018-02-12 12:24+0000\n"
-"PO-Revision-Date: 2018-02-12 12:24+0000\n"
+"PO-Revision-Date: 2018-02-13 14:20+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -58,10 +58,6 @@ msgid "Remove Embed"
 msgstr "Eliminar Embed"
 
 #: CMB2/includes/CMB2_Ajax.php:189 CMB2/includes/helper-functions.php:105
-#, php-format
-msgid "No oEmbed Results Found for %1$s. View more info at %2$s."msgstr ""
-"No oEmbed resultados encontrados por %1$s. Ver más información en %2$s."
-
 #: CMB2/includes/CMB2_Base.php:422
 #, php-format
 msgid ""
@@ -981,7 +977,7 @@ msgstr "Sin resultados"
 
 #: parts/home/latest-posts.php:5
 msgid "Latest Posts"
-msgstr "Ultimas Publicaciones"
+msgstr "Últimas Publicaciones"
 
 #: parts/home/trending-posts.php:5
 msgid "Trending"
@@ -993,7 +989,7 @@ msgstr "Otros mensajes de "
 
 #: parts/loop/loop-post.php:65 parts/single/post-header.php:51
 msgid "Posted on"
-msgstr "Escrito por"
+msgstr "Publicado el"
 
 #: parts/loop/loop-post.php:65
 msgid "by"

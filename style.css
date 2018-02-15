@@ -783,3 +783,14 @@ footer .site-border {
 #toTop:hover {
 	opacity: 0.9;
 }
+#cookies .row {
+	background: #717074;
+	color: #ffffff;
+}
+.cookies .button {
+	margin: 0.25rem 0;
+}
+.cookies a {
+	color: #fff;
+	text-decoration: underline;
+}

@@ -1,11 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: VMware Blogs\n"
-"POT-Creation-Date: 2018-02-15 08:35+0000\n"
-"PO-Revision-Date: 2018-02-15 08:35+0000\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2018-02-13 11:52+0000\n"
+"PO-Revision-Date: 2018-02-13 13:35+0000\n"
 "Language-Team: \n"
-"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,6 +15,8 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: sv_SE\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -74,17 +74,7 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
-#: footer.php:59
-msgid ""
-"This site uses cookies to improve the user experience. By using this site "
-"you agree to the "
-msgstr ""
-
-#: footer.php:59
-msgid "privacy policy"
-msgstr ""
-
-#: footer.php:71
+#: footer.php:56
 msgid "Back to top of page"
 msgstr ""
 
@@ -561,44 +551,44 @@ msgstr ""
 msgid "Contributor"
 msgstr ""
 
-#: functions/theme.php:218
+#: functions/theme.php:216
 msgid "Pagination"
 msgstr ""
 
-#: functions/theme.php:220
+#: functions/theme.php:218
 msgid "First"
 msgstr ""
 
-#: functions/theme.php:224
+#: functions/theme.php:222
 msgid "Previous"
 msgstr ""
 
-#: functions/theme.php:234
+#: functions/theme.php:232
 msgid "Next"
 msgstr ""
 
-#: functions/theme.php:237
+#: functions/theme.php:235
 msgid "Last"
 msgstr ""
 
-#: functions/theme.php:262
+#: functions/theme.php:260
 #, php-format
 msgid "%s"
 msgstr ""
 
-#: functions/theme.php:266
+#: functions/theme.php:264
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: functions/theme.php:464
+#: functions/theme.php:461
 msgid "PDFs"
 msgstr ""
 
-#: functions/theme.php:464
+#: functions/theme.php:461
 msgid "Manage PDFs"
 msgstr ""
 
-#: functions/theme.php:464
+#: functions/theme.php:461
 #, php-format
 msgid "PDF <span class=\"count\">(%s)</span>"
 msgid_plural "PDFs <span class=\"count\">(%s)</span>"
@@ -911,7 +901,7 @@ msgstr ""
 msgid "Register to download"
 msgstr ""
 
-#: parts/single/single-aside.php:140
+#: parts/single/single-aside.php:141
 msgid "Go to White Paper"
 msgstr ""
 
@@ -953,6 +943,10 @@ msgstr ""
 
 #: search.php:83
 msgid "No results"
+msgstr ""
+
+#: searchwp-live-ajax-search/search-results.php:16
+msgid "No results found."
 msgstr ""
 
 #: template-sitemap.php:27

@@ -364,13 +364,6 @@
 	padding: 0 0.25rem;
 	color: #ffffff;
 }
-.postThumbnail img {
-	-webkit-transition: all 0.25s linear;
-	transition: all 0.25s linear;
-}
-.shadow:hover .postThumbnail img {
-
-}
 .priority-data-centers .postThumbnail {
 	background: #006990 !important;
 }
