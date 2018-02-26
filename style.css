@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Proxima Nova', sans-serif;
 	font-weight: 500;
 }
+h1.logo {
+	line-height: 1 !important;
+	margin: 0 !important;
+}
 strong, b {
 	font-family: 'proxima_nova_ltsemibold', sans-serif;
 }

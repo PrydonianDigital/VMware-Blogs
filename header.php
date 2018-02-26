@@ -70,7 +70,7 @@
 
 					<div class="column shrink">
 
-						<?php the_custom_logo(); ?>
+						<h1 class="logo"><?php the_custom_logo(); ?></h1>
 
 					</div>
 
