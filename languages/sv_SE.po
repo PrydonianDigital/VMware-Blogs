@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VMware Blogs\n"
 "POT-Creation-Date: 2018-02-13 11:52+0000\n"
-"PO-Revision-Date: 2018-02-13 13:35+0000\n"
+"PO-Revision-Date: 2018-03-07 09:03+0000\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,97 +22,99 @@ msgstr ""
 
 #: 404.php:19
 msgid "Page Not Found"
-msgstr ""
+msgstr "Sidan hittas inte"
 
 #: 404.php:37
 msgid "Sorry, the page you requested was not found."
-msgstr ""
+msgstr "Sidan du begärde hittades tyvärr inte."
 
 #: 404.php:39
 msgid "If you're having trouble locating a destination on "
-msgstr ""
+msgstr "Om du har problem med att hitta en destination på"
 
 #: 404.php:39
 msgid ""
 ", try visiting the home page, using the menu at the top, or use the search "
 "bar above."
 msgstr ""
+", försök besöka hemsidan, använd menyn längst upp eller använd sökfältet "
+"ovan."
 
 #: comments.php:10
 msgid "Comments"
-msgstr ""
+msgstr "Kommentarer"
 
 #: comments.php:33 parts/global/comments-template.php:36
 msgid "Comment navigation"
-msgstr ""
+msgstr "Kommentar navigering"
 
 #: comments.php:34 parts/global/comments-template.php:37
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr; Äldre kommentarer"
 
 #: comments.php:35 parts/global/comments-template.php:38
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Nyare kommentarer&rarr;"
 
 #: comments.php:42 parts/global/comments-template.php:43
 msgid "Comments are closed."
-msgstr ""
+msgstr "Stängt för kommentarer."
 
 #: comments.php:52
 msgid "No comments yet"
-msgstr ""
+msgstr "Inga kommentarer ännu"
 
 #: comments.php:68
 msgid "Add a comment"
-msgstr ""
+msgstr "Lägg till en kommentar"
 
 #: comments.php:86
 msgid "Comments are closed"
-msgstr ""
+msgstr "Kommentarsfunktionen är avstängd"
 
 #: footer.php:38 functions/menus.php:10
 msgid "Footer Menu"
-msgstr ""
+msgstr "Fotmeny"
 
 #: footer.php:56
 msgid "Back to top of page"
-msgstr ""
+msgstr "Tillbaka till sidtoppen"
 
 #: functions/menus.php:5 header.php:54 header.php:105
 msgid "Priorities Menu"
-msgstr ""
+msgstr "Prioritetsmeny"
 
 #: functions/menus.php:6 header.php:40
 msgid "Language Menu"
-msgstr ""
+msgstr "Språkmeny:"
 
 #: functions/menus.php:7
 msgid "Top Icon Menu"
-msgstr ""
+msgstr "Topp ikonmeny"
 
 #: functions/menus.php:8 page-my-account.php:34 template-my-account.php:40
 msgid "My Account"
-msgstr ""
+msgstr "Mitt konto"
 
 #: functions/menus.php:9 header.php:125
 msgid "Social Media"
-msgstr ""
+msgstr "Sociala medier"
 
 #: functions/menus.php:11
 msgid "Mobile Menu"
-msgstr ""
+msgstr "Mobilmeny"
 
 #: functions/menus.php:82
 msgid "Dashboard"
-msgstr ""
+msgstr "Kontrollpanel"
 
 #: functions/menus.php:84
 msgid "Logout"
-msgstr ""
+msgstr "Logga ut"
 
 #: functions/meta.php:8 functions/meta.php:15
 msgid "Language Direction"
-msgstr ""
+msgstr "Språkriktning"
 
 #: functions/meta.php:18
 msgid "LTR"
@@ -124,596 +126,598 @@ msgstr ""
 
 #: functions/meta.php:30
 msgid "Location Address"
-msgstr ""
+msgstr "Plats Adress"
 
 #: functions/meta.php:36 parts/my-account/edit-account.php:23
 msgid "Website"
-msgstr ""
+msgstr "Webbplats"
 
 #: functions/meta.php:41
 msgid "Street Address"
-msgstr ""
+msgstr "Gatuadress"
 
 #: functions/meta.php:46
 msgid "City"
-msgstr ""
+msgstr "Stad"
 
 #: functions/meta.php:51
 msgid "Region"
-msgstr ""
+msgstr "Region"
 
 #: functions/meta.php:56
 msgid "Postal Code"
-msgstr ""
+msgstr "Postnummer"
 
 #: functions/meta.php:61 functions/meta.php:239
 #: parts/my-account/edit-account.php:27
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: functions/meta.php:66
 msgid "Photo"
-msgstr ""
+msgstr "Bild"
 
 #: functions/meta.php:76
 msgid "VMWorld Info"
-msgstr ""
+msgstr "VMWorld Info"
 
 #: functions/meta.php:82
 msgid "Start Date Of Event"
-msgstr ""
+msgstr "Startdatum för händelsen"
 
 #: functions/meta.php:88
 msgid "End Date Of Event"
-msgstr ""
+msgstr "Slutdatum för händelsen"
 
 #: functions/meta.php:95
 msgid "Start typing location name"
-msgstr ""
+msgstr "Börja skriva in platsnamn"
 
 #: functions/meta.php:106
 msgid "Show Event Address"
-msgstr ""
+msgstr "Visa evenemangsadress"
 
 #: functions/meta.php:111
 msgid "Ticket Link"
-msgstr ""
+msgstr "Biljettlänk"
 
 #: functions/meta.php:116
 msgid "Hands-On Lab"
-msgstr ""
+msgstr "Hands-On Lab"
 
 #: functions/meta.php:122
 msgid "URL of Hands-On Lab"
-msgstr ""
+msgstr "URL för Hands-On Lab"
 
 #: functions/meta.php:127
 msgid "Hands-On Lab Title"
-msgstr ""
+msgstr "Hands-On Lab-titel"
 
 #: functions/meta.php:132
 msgid "Post Video"
-msgstr ""
+msgstr "Post Video"
 
 #: functions/meta.php:138
 msgid "URL of video"
-msgstr ""
+msgstr "URL för video"
 
 #: functions/meta.php:143
 msgid ""
 "Get the image for the video by taking the video ID and using the following "
 "URL: https://i.ytimg.com/vi/VIDEOID/maxresdefault.jpg"
 msgstr ""
+"Hämta bilden för videon genom att ta videon ID och använd följande "
+"webbadress: https://i.ytimg.com/vi/VIDEOID/maxresdefault.jpg"
 
 #: functions/meta.php:148
 msgid "Post White Paper"
-msgstr ""
+msgstr "vitbok"
 
 #: functions/meta.php:154
 msgid "White Paper Title"
-msgstr ""
+msgstr "Vitbokstitel"
 
 #: functions/meta.php:159
 msgid "White Paper Description"
-msgstr ""
+msgstr "Vitbok Beskrivning"
 
 #: functions/meta.php:164
 msgid "White Paper Cover Image"
-msgstr ""
+msgstr "Vit papperskåpa bild"
 
 #: functions/meta.php:169
 msgid "White Paper File"
-msgstr ""
+msgstr "vitbok"
 
 #: functions/meta.php:174
 msgid "Form"
-msgstr ""
+msgstr "Formulär"
 
 #: functions/meta.php:186
 msgid "Carousel Link"
-msgstr ""
+msgstr "Karusell"
 
 #: functions/meta.php:193
 msgid "Start typing post title"
-msgstr ""
+msgstr "Börja skriva in posttitel"
 
 #: functions/meta.php:204
 msgid "Slide Text"
-msgstr ""
+msgstr "Slidetext"
 
 #: functions/meta.php:217
 msgid "User Profile"
-msgstr ""
+msgstr "Användarprofil"
 
 #: functions/meta.php:223
 msgid "Extra Info"
-msgstr ""
+msgstr "Extra information"
 
 #: functions/meta.php:229 parts/my-account/edit-account.php:15
 msgid "Phone"
-msgstr ""
+msgstr "Telefonnummer"
 
 #: functions/meta.php:234 parts/my-account/edit-account.php:19
 msgid "Company"
-msgstr ""
+msgstr "Företag"
 
 #: functions/post_types.php:7
 msgctxt "Carousel General Name"
 msgid "Carousels"
-msgstr ""
+msgstr "Karuseller"
 
 #: functions/post_types.php:8
 msgctxt "Carousel Singular Name"
 msgid "Carousel"
-msgstr ""
+msgstr "Karusell"
 
 #: functions/post_types.php:9 functions/post_types.php:37
 msgid "Carousels"
-msgstr ""
+msgstr "Karuseller"
 
 #: functions/post_types.php:10 functions/post_types.php:36
 msgid "Carousel"
-msgstr ""
+msgstr "Karusell"
 
 #: functions/post_types.php:11
 msgid "Carousel Archives"
-msgstr ""
+msgstr "Karusellarkiv"
 
 #: functions/post_types.php:12
 msgid "Carousel Attributes"
-msgstr ""
+msgstr "Karusell attribut"
 
 #: functions/post_types.php:13
 msgid "Parent Carousel:"
-msgstr ""
+msgstr "Överordnad karusell:"
 
 #: functions/post_types.php:14
 msgid "All Carousels"
-msgstr ""
+msgstr "Alla karuseller"
 
 #: functions/post_types.php:15
 msgid "Add New Carousel"
-msgstr ""
+msgstr "Lägg till nytt karusell"
 
 #: functions/post_types.php:16 functions/post_types.php:73
 msgid "Add New"
-msgstr ""
+msgstr "Lägg till ny"
 
 #: functions/post_types.php:17
 msgid "New Carousel"
-msgstr ""
+msgstr "Ny Karusell"
 
 #: functions/post_types.php:18
 msgid "Edit Carousel"
-msgstr ""
+msgstr "Redigera karusell"
 
 #: functions/post_types.php:19
 msgid "Update Carousel"
-msgstr ""
+msgstr "Uppdatera karusell"
 
 #: functions/post_types.php:20
 msgid "View Carousel"
-msgstr ""
+msgstr "Se Karusell"
 
 #: functions/post_types.php:21
 msgid "View Carousels"
-msgstr ""
+msgstr "Karuseller"
 
 #: functions/post_types.php:22
 msgid "Search Carousels"
-msgstr ""
+msgstr "Sök karuseller"
 
 #: functions/post_types.php:23 functions/post_types.php:80
 msgid "Not found"
-msgstr ""
+msgstr "Hittades inte"
 
 #: functions/post_types.php:24 functions/post_types.php:81
 msgid "Not found in Trash"
-msgstr ""
+msgstr "Inget hittades i papperskorgen"
 
 #: functions/post_types.php:25 functions/post_types.php:82
 msgid "Featured Image"
-msgstr ""
+msgstr "Aktuell bild"
 
 #: functions/post_types.php:26 functions/post_types.php:83
 msgid "Set featured image"
-msgstr ""
+msgstr "Välj utvald bild"
 
 #: functions/post_types.php:27 functions/post_types.php:84
 msgid "Remove featured image"
-msgstr ""
+msgstr "Ta bort utvald bild"
 
 #: functions/post_types.php:28 functions/post_types.php:85
 msgid "Use as featured image"
-msgstr ""
+msgstr "Använd som utvald bild"
 
 #: functions/post_types.php:29
 msgid "Insert into Carousel"
-msgstr ""
+msgstr "Sätt i karusellen"
 
 #: functions/post_types.php:30 functions/post_types.php:87
 msgid "Uploaded to this item"
-msgstr ""
+msgstr "Uppladdat till detta objekt"
 
 #: functions/post_types.php:31
 msgid "Carousels list"
-msgstr ""
+msgstr "Karuseller"
 
 #: functions/post_types.php:32
 msgid "Carousels list navigation"
-msgstr ""
+msgstr "Karuselllista navigering"
 
 #: functions/post_types.php:33
 msgid "Filter Carousels list"
-msgstr ""
+msgstr "Filtrera karuselllistan"
 
 #: functions/post_types.php:64
 msgctxt "Location General Name"
 msgid "Locations"
-msgstr ""
+msgstr "Platser"
 
 #: functions/post_types.php:65
 msgctxt "Location Singular Name"
 msgid "Location"
-msgstr ""
+msgstr "Plats"
 
 #: functions/post_types.php:66 functions/post_types.php:94
 msgid "Locations"
-msgstr ""
+msgstr "Platser"
 
 #: functions/post_types.php:67 functions/post_types.php:93
 msgid "Location"
-msgstr ""
+msgstr "Plats"
 
 #: functions/post_types.php:68
 msgid "Location Archives"
-msgstr ""
+msgstr "Klinikarkiv"
 
 #: functions/post_types.php:69
 msgid "Location Attributes"
-msgstr ""
+msgstr "Platsattribut"
 
 #: functions/post_types.php:70
 msgid "Parent Location:"
-msgstr ""
+msgstr "Överordnad klinik:"
 
 #: functions/post_types.php:71
 msgid "All Locations"
-msgstr ""
+msgstr "Alla Platser"
 
 #: functions/post_types.php:72
 msgid "Add New Location"
-msgstr ""
+msgstr "Lägg till ny Plats"
 
 #: functions/post_types.php:74
 msgid "New Location"
-msgstr ""
+msgstr "Ny klinik"
 
 #: functions/post_types.php:75
 msgid "Edit Location"
-msgstr ""
+msgstr "Redigera plats"
 
 #: functions/post_types.php:76
 msgid "Update Location"
-msgstr ""
+msgstr "Uppdatera plats"
 
 #: functions/post_types.php:77
 msgid "View Location"
-msgstr ""
+msgstr "Visa plats"
 
 #: functions/post_types.php:78
 msgid "View Locations"
-msgstr ""
+msgstr "Platser"
 
 #: functions/post_types.php:79
 msgid "Search Locations"
-msgstr ""
+msgstr "Sökandelägen"
 
 #: functions/post_types.php:86
 msgid "Insert into Location"
-msgstr ""
+msgstr "Infoga till kliniken"
 
 #: functions/post_types.php:88
 msgid "Locations list"
-msgstr ""
+msgstr "Kliniklista"
 
 #: functions/post_types.php:89
 msgid "Locations list navigation"
-msgstr ""
+msgstr "Kliniklistnavigation"
 
 #: functions/post_types.php:90
 msgid "Filter Locations list"
-msgstr ""
+msgstr "Filtrera kliniklista"
 
 #: functions/sidebars.php:7
 msgid "Footer 1 Widgets"
-msgstr ""
+msgstr "Footer 1 Widgets"
 
 #: functions/sidebars.php:15
 msgid "Footer 2 Widgets"
-msgstr ""
+msgstr "Footer 2 Widgets"
 
 #: functions/sidebars.php:23
 msgid "Footer 3 Widgets"
-msgstr ""
+msgstr "Footer 3 Widgets"
 
 #: functions/sidebars.php:31
 msgid "Downloads"
-msgstr ""
+msgstr "Nedladdningar"
 
 #: functions/taxonomies.php:6
 msgctxt "Taxonomy General Name"
 msgid "Priorities"
-msgstr ""
+msgstr "Prioriteter"
 
 #: functions/taxonomies.php:7
 msgctxt "Taxonomy Singular Name"
 msgid "Priority"
-msgstr ""
+msgstr "Prioritet"
 
 #: functions/taxonomies.php:8 search.php:38
 msgid "Priorities"
-msgstr ""
+msgstr "Prioriteter"
 
 #: functions/taxonomies.php:9
 msgid "All Priorities"
-msgstr ""
+msgstr "Prioriteter"
 
 #: functions/taxonomies.php:10
 msgid "Parent Priority"
-msgstr ""
+msgstr "Föräldra Prioritet"
 
 #: functions/taxonomies.php:11
 msgid "Parent Priority:"
-msgstr ""
+msgstr "Föräldra Prioritet:"
 
 #: functions/taxonomies.php:12
 msgid "New Priority"
-msgstr ""
+msgstr "Lägg till ny prioritet"
 
 #: functions/taxonomies.php:13
 msgid "Add New Priority"
-msgstr ""
+msgstr "Lägg till ny prioritet"
 
 #: functions/taxonomies.php:14
 msgid "Edit Priority"
-msgstr ""
+msgstr "Redigera prioritet"
 
 #: functions/taxonomies.php:15
 msgid "Update Priority"
-msgstr ""
+msgstr "Uppdateringsprioritet"
 
 #: functions/taxonomies.php:16
 msgid "View Priority"
-msgstr ""
+msgstr "Prioritet"
 
 #: functions/taxonomies.php:17
 msgid "Separate Priorities with commas"
-msgstr ""
+msgstr "Separata prioriteringar med kommatecken"
 
 #: functions/taxonomies.php:18
 msgid "Add or remove Priorities"
-msgstr ""
+msgstr "Lägg till eller ta bort prioriteringar"
 
 #: functions/taxonomies.php:19
 msgid "Choose from the most used"
-msgstr ""
+msgstr "Välj bland de mest använda"
 
 #: functions/taxonomies.php:20
 msgid "Popular Priorities"
-msgstr ""
+msgstr "Populära prioriteringar"
 
 #: functions/taxonomies.php:21
 msgid "Search Priorities"
-msgstr ""
+msgstr "Sökprioriteringar"
 
 #: functions/taxonomies.php:22
 msgid "Not Found"
-msgstr ""
+msgstr "Hittades inte"
 
 #: functions/taxonomies.php:23
 msgid "No items"
-msgstr ""
+msgstr "Inga objekt"
 
 #: functions/taxonomies.php:24
 msgid "Priorities list"
-msgstr ""
+msgstr "Prioriteter"
 
 #: functions/taxonomies.php:25
 msgid "Priorities list navigation"
-msgstr ""
+msgstr "Prioritetslista navigering"
 
 #: functions/theme.php:25
 msgid "Subscriber"
-msgstr ""
+msgstr "Prenumerant"
 
 #: functions/theme.php:36
 msgid "Contributor"
-msgstr ""
+msgstr "Medarbetare"
 
 #: functions/theme.php:216
 msgid "Pagination"
-msgstr ""
+msgstr "Paginering"
 
 #: functions/theme.php:218
 msgid "First"
-msgstr ""
+msgstr "Första"
 
 #: functions/theme.php:222
 msgid "Previous"
-msgstr ""
+msgstr "Föregående"
 
 #: functions/theme.php:232
 msgid "Next"
-msgstr ""
+msgstr "Nästa"
 
 #: functions/theme.php:235
 msgid "Last"
-msgstr ""
+msgstr "Sista"
 
 #: functions/theme.php:260
 #, php-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: functions/theme.php:264
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Din kommentar inväntar godkännande."
 
 #: functions/theme.php:461
 msgid "PDFs"
-msgstr ""
+msgstr "PDF-filer"
 
 #: functions/theme.php:461
 msgid "Manage PDFs"
-msgstr ""
+msgstr "Hantera"
 
 #: functions/theme.php:461
 #, php-format
 msgid "PDF <span class=\"count\">(%s)</span>"
 msgid_plural "PDFs <span class=\"count\">(%s)</span>"
 msgstr[0] ""
-msgstr[1] ""
+msgstr[1] "PDF <span class=\"count\">(%s)</span>"
 
 #: header.php:83
 msgid "Icon Menu"
-msgstr ""
+msgstr "Ikon"
 
 #: header.php:90
 msgid "Open Menu"
-msgstr ""
+msgstr "Öppna meny"
 
 #: header.php:92
 msgid "Edit"
-msgstr ""
+msgstr "(Redigera)"
 
 #: header.php:94
 msgid "Choose Language"
-msgstr ""
+msgstr "Välj språk"
 
 #: page-my-account.php:14 template-edit-account.php:20
 #: template-my-account.php:20 template-my-downloads.php:20
 #: template-my-reading-list.php:20 template-my-subscriptions.php:20
 msgid "Good Morning"
-msgstr ""
+msgstr "God morgon"
 
 #: page-my-account.php:14 template-edit-account.php:20
 #: template-my-account.php:20 template-my-downloads.php:20
 #: template-my-reading-list.php:20 template-my-subscriptions.php:20
 msgid "Good Afternoon"
-msgstr ""
+msgstr "God Eftermiddag"
 
 #: page-my-account.php:14 template-edit-account.php:20
 #: template-my-account.php:20 template-my-downloads.php:20
 #: template-my-reading-list.php:20 template-my-subscriptions.php:20
 msgid "Good Evening"
-msgstr ""
+msgstr "God kväll"
 
 #: page-my-account.php:24 template-edit-account.php:30
 #: template-my-account.php:30 template-my-downloads.php:30
 #: template-my-reading-list.php:30 template-my-subscriptions.php:30
 msgid "Account Menu"
-msgstr ""
+msgstr "Menyn Konto"
 
 #: parts/global/comments-template.php:15
 #, php-format
 msgctxt "comments title"
 msgid "One thought on \"%2$s\""
 msgid_plural "%1$s thoughts on \"%2$s\""
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "En tanke på \"%2$s\""
+msgstr[1] "%1$s tanke på \"%2$s\""
 
 #: parts/global/search-form.php:13 parts/global/search-form.php:15
 #: search.php:16 search.php:17
 msgid "What are you looking for?"
-msgstr ""
+msgstr "Vad letar du efter?"
 
 #: parts/global/search-form.php:19 search.php:34
 msgid "Search"
-msgstr ""
+msgstr "Sök"
 
 #: parts/global/share-post.php:2
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Dela på Facebook"
 
 #: parts/global/share-post.php:3
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Dela på Twitter"
 
 #: parts/global/share-post.php:4
 msgid "Share on LinkedIn"
-msgstr ""
+msgstr "Dela på LinkedIn"
 
 #: parts/home/explore-topics.php:5
 msgid "Explore by topic"
-msgstr ""
+msgstr "Utforska efter ämne"
 
 #: parts/home/explore-topics.php:34
 #, php-format
 msgid "View all post filed under %s"
-msgstr ""
+msgstr "Visa alla inlägg arkiverad under %s"
 
 #: parts/home/featured-posts.php:26 parts/home/home-carousel.php:69
 #: parts/home/latest-posts.php:35 parts/home/trending-posts.php:42
 #: parts/loop/author-page.php:27 parts/loop/blog-page.php:60
 msgid "No posts found"
-msgstr ""
+msgstr "Inga inlägg hittades"
 
 #: parts/home/latest-posts.php:5
 msgid "Latest Posts"
-msgstr ""
+msgstr "Senaste inlägg"
 
 #: parts/home/trending-posts.php:5
 msgid "Trending"
-msgstr ""
+msgstr "Trend"
 
 #: parts/loop/author-page.php:7
 msgid "Other posts by "
-msgstr ""
+msgstr "Andra inlägg av"
 
 #: parts/loop/blog-page.php:20
 msgid "White Papers"
-msgstr ""
+msgstr "Vitbok"
 
 #: parts/loop/blog-page.php:23
 msgid "Videos"
-msgstr ""
+msgstr "Videos"
 
 #: parts/loop/blog-page.php:26
 msgid "VMWorld"
-msgstr ""
+msgstr "VMworld"
 
 #: parts/loop/blog-page.php:29
 msgid "Hands-On Labs"
-msgstr ""
+msgstr "Hands-On Labs"
 
 #: parts/loop/loop-post.php:119 parts/single/post-header.php:51
 msgid "Posted on"
-msgstr ""
+msgstr "Publicerades den"
 
 #: parts/loop/loop-post.php:119
 msgid "by"
-msgstr ""
+msgstr "av"
 
 #: parts/loop/loop-post.php:119 parts/single/single-aside.php:7
 #: parts/single/single-aside.php:9 parts/single/single-link.php:7
@@ -722,172 +726,174 @@ msgstr ""
 #: parts/single/single-video.php:9 parts/single/single.php:7
 #: parts/single/single.php:9
 msgid "Read more posts by "
-msgstr ""
+msgstr "Fler artiklar av"
 
 #: parts/loop/loop-post.php:158
 msgid "minute read"
-msgstr ""
+msgstr "minut läs"
 
 #: parts/loop/loop-post.php:164
 msgid "Read more"
-msgstr ""
+msgstr "Läs mer"
 
 #: parts/my-account/edit-account.php:1
 msgid "Update My Information"
-msgstr ""
+msgstr "Uppdatera min information"
 
 #: parts/my-account/edit-account.php:7 parts/my-account/login-register.php:92
 msgid "First Name"
-msgstr ""
+msgstr "Förnamn"
 
 #: parts/my-account/edit-account.php:11 parts/my-account/login-register.php:95
 msgid "Last Name"
-msgstr ""
+msgstr "Efternamn"
 
 #: parts/my-account/edit-account.php:246
 msgid "Update"
-msgstr ""
+msgstr "Uppdatering"
 
 #: parts/my-account/login-register.php:1
 msgid "Hello Guest, please log in or register"
-msgstr ""
+msgstr "Hej gäst, logga in eller registrera dig"
 
 #: parts/my-account/login-register.php:8 parts/my-account/login-register.php:17
 msgid "Log In"
-msgstr ""
+msgstr "Log in"
 
 #: parts/my-account/login-register.php:9 parts/my-account/login-register.php:43
 #: parts/my-account/login-register.php:112
 msgid "Register"
-msgstr ""
+msgstr "Registrera"
 
 #: parts/my-account/login-register.php:10
 msgid "Forgot Password"
-msgstr ""
+msgstr "Nytt lösenord"
 
 #: parts/my-account/login-register.php:57
 msgid "Fill out all fields marked *"
-msgstr ""
+msgstr "Fyll i alla fält markerade *"
 
 #: parts/my-account/login-register.php:59
 msgid "Invalid email address."
-msgstr ""
+msgstr "Ogiltig mailadress."
 
 #: parts/my-account/login-register.php:61
 msgid "Email already exists."
-msgstr ""
+msgstr "E-postadressen finns redan."
 
 #: parts/my-account/login-register.php:63
 msgid "Password do not match."
-msgstr ""
+msgstr "lösenord matchar ej"
 
 #: parts/my-account/login-register.php:67
 msgid "Error on user creation."
-msgstr ""
+msgstr "Ett fel på användarskapelsen."
 
 #: parts/my-account/login-register.php:70
 msgid "You can now log in"
-msgstr ""
+msgstr "Du kan nu logga in"
 
 #: parts/my-account/login-register.php:98
 msgid "Email"
-msgstr ""
+msgstr "E-post"
 
 #: parts/my-account/login-register.php:101
 msgid "Username"
-msgstr ""
+msgstr "Användarnamn"
 
 #: parts/my-account/login-register.php:104
 msgid "Password"
-msgstr ""
+msgstr "Lösenord"
 
 #: parts/my-account/login-register.php:107
 msgid "Repeat Password"
-msgstr ""
+msgstr "Upprepa lösenord"
 
 #: parts/my-account/login-register.php:121
 msgid "Password Reset"
-msgstr ""
+msgstr "Återställning av lösenord"
 
 #: parts/my-account/login-register.php:123
 msgid "Enter your username or email to reset your password."
 msgstr ""
+"Ange ditt användarnamn eller din e-postadress för att återställa ditt "
+"lösenord."
 
 #: parts/my-account/login-register.php:127
 msgid "Username or Email"
-msgstr ""
+msgstr "Användarnamn eller e-postadress"
 
 #: parts/my-account/login-register.php:132
 msgid "Reset my password"
-msgstr ""
+msgstr "Återställ mitt lösenord"
 
 #: parts/my-account/login-register.php:133
 msgid "A message will be sent to your email address."
-msgstr ""
+msgstr "Ett e-postmeddelande kommer att skickats till din e-postadress."
 
 #: parts/my-account/my-downloads.php:1
 msgid "My Downloads"
-msgstr ""
+msgstr "Mina nedladdningar"
 
 #: parts/my-account/my-subscriptions.php:1
 msgid "My Subscriptions"
-msgstr ""
+msgstr "Mina prenumerationer"
 
 #: parts/my-account/reading-list.php:1
 msgid "My Reading List"
-msgstr ""
+msgstr "Min läsningslista"
 
 #: parts/my-account/reading-list.php:19
 msgid "Older Favorites"
-msgstr ""
+msgstr "Äldre Favoriter"
 
 #: parts/my-account/reading-list.php:20
 msgid "Newer Favorites"
-msgstr ""
+msgstr "Nyare Favoriter"
 
 #: parts/my-account/reading-list.php:23
 msgid "No articles added to your Reading List yet."
-msgstr ""
+msgstr "Inga artiklar har lagts till i din läslista ännu."
 
 #: parts/my-account/reset-password.php:1 parts/my-account/reset-password.php:39
 msgid "Reset Password"
-msgstr ""
+msgstr "Återställ lösenord"
 
 #: parts/my-account/reset-password.php:8
 msgid "The link you clicked on has expired"
-msgstr ""
+msgstr "Länken du klickade på har löpt ut"
 
 #: parts/my-account/reset-password.php:26
 msgid "New password"
-msgstr ""
+msgstr "Nytt lösenord"
 
 #: parts/my-account/reset-password.php:30
 msgid "Repeat new password"
-msgstr ""
+msgstr "Ange lösenordet igen"
 
 #: parts/single/list-categories.php:3
 msgid "Category:"
-msgstr ""
+msgstr "Kategori:"
 
 #: parts/single/list-tags.php:1
 msgid "Tags:"
-msgstr ""
+msgstr "Taggar:"
 
 #: parts/single/post-header.php:63
 msgid "Add to Reading List"
-msgstr ""
+msgstr "Lägg till i läsningslistan"
 
 #: parts/single/post-header.php:71
 msgid "Log In to add to Reading List"
-msgstr ""
+msgstr "Logga in för att lägga till i läslista"
 
 #: parts/single/related-posts.php:5
 msgid "Related Articles"
-msgstr ""
+msgstr "Relaterade artiklar"
 
 #: parts/single/related-posts.php:37
 msgid "No related posts found"
-msgstr ""
+msgstr "Hittade inga liknande texter."
 
 #: parts/single/single-aside.php:29 parts/single/single-link.php:22
 #: parts/single/single-status.php:22 parts/single/single-video.php:22
@@ -896,66 +902,68 @@ msgid ""
 "DISCLAIMER: this article is older than one year and may not be up to date "
 "with recent events or newly available information."
 msgstr ""
+"DISCLAIMER: Den här artikeln är äldre än ett år och kan inte vara aktuell "
+"med senaste händelser eller ny tillgänglig information."
 
 #: parts/single/single-aside.php:104
 msgid "Register to download"
-msgstr ""
+msgstr "Registrera dig för att ladda ner"
 
 #: parts/single/single-aside.php:141
 msgid "Go to White Paper"
-msgstr ""
+msgstr "Gå till vitboken"
 
 #: parts/single/single-status.php:72
 msgid "Get your tickets"
-msgstr ""
+msgstr "Skaffa Dina Biljetter Nu!"
 
 #: parts/single/single-video.php:28
 msgid "Watch on YouTube"
-msgstr ""
+msgstr "Titta på YouTube"
 
 #: search.php:7
 msgid "Show Filters"
-msgstr ""
+msgstr "Visa filter"
 
 #: search.php:11
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: search.php:42
 msgid "Asset Type"
-msgstr ""
+msgstr "Tillgångstyp"
 
 #: search.php:46
 msgid "Categories"
-msgstr ""
+msgstr "Kategorier"
 
 #: search.php:50
 msgid "Tags"
-msgstr ""
+msgstr "Taggar"
 
 #: search.php:54
 msgid "Results"
-msgstr ""
+msgstr "Resultat"
 
 #: search.php:58
 msgid " results found."
-msgstr ""
+msgstr "Hittade resultat"
 
 #: search.php:83
 msgid "No results"
-msgstr ""
+msgstr "Inga resultat"
 
 #: searchwp-live-ajax-search/search-results.php:16
 msgid "No results found."
-msgstr ""
+msgstr "Inga resultat hittades."
 
 #: template-sitemap.php:27
 msgid "Pages"
-msgstr ""
+msgstr "Sidor"
 
 #: template-sitemap.php:37
 msgid "Posts"
-msgstr ""
+msgstr "Inlägg"
 
 #. Theme Name of the plugin/theme
 msgid "VMware Blogs"
