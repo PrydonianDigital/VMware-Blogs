@@ -171,6 +171,14 @@ body.security nav#top li.security a {
 		line-height: 50px;
 	}
 }
+.langSelect {
+	position: relative;
+}
+.langSelect img {
+	position: absolute;
+	top: 22.5%;
+	right: 12.5%;
+}
 
 /* ------ Homepage Section Titles ------ */
 h2.sectionTitle, h3.sectionTitle, h4.sectionTitle {
@@ -196,7 +204,9 @@ h4, .h4 {
 }
 
 /* ------ Carousel ------ */
-
+.noCarousel {
+	height: 6rem;
+}
 .owl-carousel {
 	z-index: 0;
 }
@@ -685,6 +695,9 @@ h5.entry-title .simplefavorite-button i, h5.entry-title .simplefavorite-button.a
 .simplefavorites-clear:hover, .simplefavorites-clear:focus {
 	background-color: #a53b2a;
 	color: #fefefe;
+}
+.downloads {
+	padding: 0.9375rem;
 }
 
 /* ------ Main Footer ------ */

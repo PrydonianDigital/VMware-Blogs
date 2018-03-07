@@ -24,7 +24,6 @@
 
 					<?php the_post_thumbnail( 'carousel' ); ?>
 
-
 					<div class="row slideOverlay show-for-medium">
 
 						<div class="column">
@@ -62,11 +61,11 @@
 
 			<?php else : ?>
 
-				<div <?php post_class( 'column animated fadeIn text-center' ); ?>>
+				<div <?php post_class( 'noCarousel' ); ?>>
 
 					<div class="shadow">
 
-						<p class="lead"><?php _e( 'No posts found', 'vmw' ); ?></p>
+						<p class="lead hide"><?php _e( 'No posts found', 'vmw' ); ?></p>
 
 					</div>
 

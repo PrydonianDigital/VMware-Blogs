@@ -17,7 +17,7 @@
 	$entries = GFAPI::get_entries( 0, $search_criteria, null, $paging );
 	foreach( $entries as $entry) {
 		$form = GFAPI::get_form( $entry['form_id'] );
-		echo '<div class="column"><div class="shadow"><div class="row"><div class="column" data-equalizer-watch="row">';
+		echo '<div class="column text-center"><div class="shadow"><div class="row"><div class="column downloads" data-equalizer-watch="row">';
 		$associated_post = get_page_by_title($form['title'], OBJECT, 'post');
 		echo '<h4 class="entry-title">' . $form['title'] . '</h4>';
 		$assetimg = get_post_meta( $associated_post->ID, '_post_wp_img', true ); echo '<img src="' . $assetimg . '" class="assetImg" />';

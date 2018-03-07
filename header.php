@@ -91,7 +91,8 @@
 							<?php if( current_user_can( 'edit_post' ) && !is_front_page() && !is_home() && !is_archive() ) { ?>
 							<li id="editMe"><a href="<?php echo admin_url() . 'post.php?post=' . $post->ID . '&action=edit'; ?>" title="<?php _e( 'Edit', 'vmw' ); ?>"><i class="far fa-edit"></i></a></li>
 							<?php } ?>
-							<li><a data-toggle="languageSelector" title="<?php _e( 'Choose Language', 'vmw' ); ?>" id="langShow"><i class="fas fa-globe"></i></a></li>
+							<li class="langSelect"><a data-toggle="languageSelector" title="<?php _e( 'Choose Language', 'vmw' ); ?>" id="langShow"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ) . '/img/' . pll_current_language() . '.png'; ?>" alt="<?php echo pll_current_language(); ?>" /><i class="fas fa-globe"></i></a></li>
+
 						</ul>
 
 					</div>
