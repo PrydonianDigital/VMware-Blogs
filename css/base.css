@@ -136,6 +136,19 @@
 .single.vmworld  h4.sectionTitle:after {
 	border-top: 1px solid #0095d3;
 }
+.postContent h4.entry-title {
+	border-color: #717074;
+}
+.postContent h4.entry-title:before {
+	background: #717074;
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #717074), color-stop(50%, #717074), color-stop(50%, #97969a), color-stop(100%, #97969a));
+	background: linear-gradient(135deg, #717074 0%, #717074 50%, #97969a 50%, #97969a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#717074', endColorstr='#97969a', GradientType=1 );
+}
+.postContent h4.entry-title {
+	border-color: #717074;
+}
+
 .priority-vmworld .postContent h4.entry-title {
 	border-color: #0095d3;
 }
@@ -250,6 +263,9 @@
 	color: #ffffff;
 	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
 	        box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+.single header {
+	background: #717074;
 }
 .single .post.priority-vmworld header {
 	background: #0095d3;

@@ -73,12 +73,14 @@
 ?>
 <?php
 	$terms = get_the_terms( $post->ID, 'priority');
-	foreach ( $terms as $term ) {
-		$termID[] = $term->term_id;
+	if( $terms != '') {
+		foreach ( $terms as $term ) {
+			$termID[] = $term->term_id;
+		}
+		$translated_terms = pll_get_term_translations($termID[0]);
+		$en_priority = $translated_terms[en];
+		$en_term =  get_term($translated_terms[en], 'priority');
 	}
-	$translated_terms = pll_get_term_translations($termID[0]);
-	$en_priority = $translated_terms[en];
-	$en_term =  get_term($translated_terms[en], 'priority');
 ?>
 	<div <?php post_class( 'column animated fadeIn priority-' . $en_term->slug ); ?> data-langdir="<?php $dir = get_post_meta( $post->ID, '_lang_dir', true ); echo $dir; ?>">
 
@@ -100,7 +102,7 @@
 						?>
 						<?php
 							if ( has_post_thumbnail() ) {
-								the_post_thumbnail( 'blogthumb' );
+								the_post_thumbnail( 'blogThumb' );
 							} else {
 						?>
 								<img src="<?php bloginfo('template_directory'); ?>/img/default.jpg" alt="<?php the_title(); ?>" />

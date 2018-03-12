@@ -18,4 +18,5 @@
 	require_once('functions/menus.php');
 	require_once('functions/sidebars.php');
 	require_once('functions/user.php');
+	require_once('functions/customise.php');
 

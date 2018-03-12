@@ -7,9 +7,9 @@
 	// Register Theme Features
 	function vmw_theme()  {
 		add_theme_support( 'post-thumbnails' );
-		add_image_size( 'blogthumb', 490, 276, array( 'center', 'center') );
 		add_image_size( 'header', 1000, 563, array( 'center', 'center') );
-		add_image_size( 'carousel', 1680, 550, array( 'center', 'center') );
+		add_image_size( 'blogThumb', 490, 276, array( 'center', 'center') );
+		add_image_size( 'carousel', 1680, 550, array( 'center', 'bottom') );
 		add_theme_support( 'post-formats', array( 'video', 'aside', 'status', 'link' ) );
 		add_image_size( 'client', 150, 150 );
 		show_admin_bar( false );
@@ -21,6 +21,11 @@
 		remove_action( 'wp_head', 'index_rel_link' );
 		remove_action( 'wp_head', 'adjacent_posts_rel_link' );
 		remove_action( 'wp_head', 'wp_shortlink_wp_head' );
+		remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+		remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+		remove_action( 'wp_print_styles', 'print_emoji_styles' );
+		remove_action( 'admin_print_styles', 'print_emoji_styles' );
+		add_filter( 'w3tc_can_print_comment', function( $w3tc_setting ) { return false; }, 10, 1 );
 		add_role('subscriber',
 			__( 'Subscriber' ),
 			array(
@@ -62,7 +67,7 @@
 		wp_register_style( 'animate', get_template_directory_uri() . '/css/animate.css', false, '3.5.2' );
 		wp_register_style( 'fonts', get_template_directory_uri() . '/css/fonts.css', false, '6.3.1' );
 		wp_register_style( 'owl', get_template_directory_uri() . '/css/owl.css', false, '2.2.1' );
-		wp_register_style( 'fontawesome', '//use.fontawesome.com/releases/v5.0.6/css/all.css', false, '5.0.6' );
+		wp_register_style( 'fontawesome', get_template_directory_uri() . '/css/fontawesome-all.min.css', false, '5.0.8' );
 		wp_register_style( 'owltheme', get_template_directory_uri() . '/css/owl.theme.css', false, '2.2.1' );
 		wp_enqueue_style( 'animate' );
 		wp_enqueue_style( 'fontawesome' );
@@ -493,4 +498,13 @@
 		if ( !is_admin() )
 			$qvs['post_type'] = $tax->object_type;
 		return $qvs;
+	}
+
+	add_action('wp_dashboard_setup', 'vmw_dashboard');
+	function vmw_dashboard() {
+		global $wp_meta_boxes;
+		wp_add_dashboard_widget('custom_help_widget', 'VMware Blogs Info', 'custom_dashboard_help');
+	}
+	function custom_dashboard_help() {
+		echo '<p>Featured images for <strong>Posts</strong> should be <strong>1000x563</strong> pixels in size <br>(16x9 aspect ratio).</p><p>Featured images for <strong>Carousels</strong> should be <strong>1680x550</strong> pixels in size.</p>';
 	}

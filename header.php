@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
+<?php
+	if( get_theme_mod( 'vmw_gtm' ) != '' )	{
+?>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','<?php echo get_theme_mod( 'vmw_gtm' ); ?>');</script>
+<!-- End Google Tag Manager -->
+<?php
+	}
+?>
+<?php
+	if( get_theme_mod( 'vmw_ga' ) != '' )	{
+?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo get_theme_mod( 'vmw_ga' ); ?>"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '<?php echo get_theme_mod( 'vmw_ga' ); ?>');
+</script>
+<?php
+	}
+?>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -12,12 +39,14 @@
 <?php
 	if( is_single() ){
 		$terms = get_the_terms( $post->ID, 'priority');
-		foreach ( $terms as $term ) {
-			$termID[] = $term->term_id;
+		if( $terms != '') {
+			foreach ( $terms as $term ) {
+				$termID[] = $term->term_id;
+			}
+			$translated_terms = pll_get_term_translations($termID[0]);
+			$en_priority = $translated_terms[en];
+			$en_term =  get_term($translated_terms[en], 'priority');
 		}
-		$translated_terms = pll_get_term_translations($termID[0]);
-		$en_priority = $translated_terms[en];
-		$en_term =  get_term($translated_terms[en], 'priority');
 ?>
 <body <?php body_class( $en_term->slug ); ?> itemscope itemtype="http://schema.org/WebPage">
 <?php
@@ -27,6 +56,8 @@
 <?php
 	}
 ?>
+
+
 
 <!-- Site by Prydonian Digital https://prydonian.digital -->
 

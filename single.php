@@ -8,12 +8,14 @@
 		global $postid;
 		$postid = get_the_ID();
 		$terms = get_the_terms( $post->ID, 'priority');
-		foreach ( $terms as $term ) {
-			$termID[] = $term->term_id;
+		if( $terms != '') {
+			foreach ( $terms as $term ) {
+				$termID[] = $term->term_id;
+			}
+			$translated_terms = pll_get_term_translations($termID[0]);
+			$en_priority = $translated_terms[en];
+			$en_term =  get_term($translated_terms[en], 'priority');
 		}
-		$translated_terms = pll_get_term_translations($termID[0]);
-		$en_priority = $translated_terms[en];
-		$en_term =  get_term($translated_terms[en], 'priority');
 	?>
 
 	<div <?php post_class( 'column mainEntry priority-' . $en_term->slug ); ?> data-views="<?php echo vmw_get_post_views(get_the_ID()); ?>" data-langdir="<?php $dir = get_post_meta( $post->ID, '_lang_dir', true ); echo $dir; ?>">

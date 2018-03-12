@@ -331,7 +331,7 @@ h4, .h4 {
 .postContent h4.entry-title {
 	padding: 0 0 0 0.28125rem;
 	margin-left: 2rem;
-	border-left: 1px solid #ffffff;
+	border-left: 1px solid #717074;
 	position: relative;
 }
 .postContent h4.entry-title:before {
@@ -342,7 +342,6 @@ h4, .h4 {
 	position: absolute;
 	top: 0.25rem;
 	left: -2rem;
-	background: #ffffff;
 }
 @media screen and (max-width: 38em) {
 	.postContent h4.entry-title {
