@@ -21,33 +21,16 @@
 		remove_action( 'wp_head', 'index_rel_link' );
 		remove_action( 'wp_head', 'adjacent_posts_rel_link' );
 		remove_action( 'wp_head', 'wp_shortlink_wp_head' );
+		remove_action( 'admin_print_styles', 'print_emoji_styles' );
 		remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 		remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 		remove_action( 'wp_print_styles', 'print_emoji_styles' );
-		remove_action( 'admin_print_styles', 'print_emoji_styles' );
+		remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
+		remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
+		remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
+		add_filter( 'tiny_mce_plugins', 'disable_emojicons_tinymce' );
+		add_filter( 'emoji_svg_url', '__return_false' );
 		add_filter( 'w3tc_can_print_comment', function( $w3tc_setting ) { return false; }, 10, 1 );
-		add_role('subscriber',
-			__( 'Subscriber' ),
-			array(
-				'read'				=> true,
-				'create_posts'		=> false,
-				'edit_posts'		=> false,
-				'edit_others_posts'	=> false,
-				'publish_posts'		=> false,
-				'manage_categories'	=> false,
-				)
-		);
-		add_role('contributor',
-			__( 'Contributor' ),
-			array(
-				'read'				=> true,
-				'create_posts'		=> true,
-				'edit_posts'		=> true,
-				'edit_others_posts'	=> false,
-				'publish_posts'		=> true,
-				'manage_categories'	=> false,
-				)
-		);
 		add_theme_support( 'custom-logo', array(
 			'width'		=> 200,
 			'height'	=> 30,
