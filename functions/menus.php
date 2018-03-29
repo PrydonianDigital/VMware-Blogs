@@ -77,8 +77,10 @@
 
 	add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
 	function add_admin_link($items, $args){
-		if( $args->theme_location == 'account' ){
-			if( current_user_can('author') || current_user_can('editor') || current_user_can('administrator') ) {
+		if( $args->theme_location == 'account' ) {
+			$user = wp_get_current_user();
+			$allowed_roles = array('editor', 'administrator', 'author');
+			if( array_intersect( $allowed_roles, $user->roles ) ) {
 				$items .= '<li class="fas fa-cogs"><a href="' . get_admin_url() . '">' . __( 'Dashboard', 'vmw' ) . '</a></li>';
 			}
 			$items .= '<li class="fas fa-sign-out-alt"><a href="' . wp_logout_url( get_permalink() ) . '">' . __( 'Logout', 'vmw' ) . '</a></li>';

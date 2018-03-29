@@ -251,7 +251,7 @@ h4, .h4 {
 	left: 50%;
 	transform: translateX(-50%) translateY(-75%);
 	text-align: center;
-	text-shadow: 1px 1px 0 #000000;
+	text-shadow: 1px 1px 1px #000000;
 	color: #fefefe;
 }
 .slideOverlay h2.h1 {
@@ -272,10 +272,12 @@ h4, .h4 {
 	}
 	.slideOverlay p.lead {
 		line-height: 1.1 !important;
+		margin: 0 !important;
 	}
 	.slideOverlay h2.h1 {
-		font-size: 1.1rem;
-		margin: 0 0 0.5rem 0;
+		line-height: 1.1 !important;
+		font-size: 1.1rem !important;
+		margin: 0 0 0.15rem 0 !important;
 	}
 }
 

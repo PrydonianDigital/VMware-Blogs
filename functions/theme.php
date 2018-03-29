@@ -5,7 +5,7 @@
 		$content_width = 1000;
 
 	// Register Theme Features
-	function vmw_theme()  {
+	function vmw_theme()	{
 		add_theme_support( 'post-thumbnails' );
 		add_image_size( 'header', 1000, 563, array( 'center', 'center') );
 		add_image_size( 'blogThumb', 490, 276, array( 'center', 'center') );
@@ -127,14 +127,14 @@
 	remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 	function vmw_get_post_views($postID){
-	    $count_key = 'vmw_post_views_count';
-	    $count = get_post_meta($postID, $count_key, true);
-	    if($count==''){
-	        delete_post_meta($postID, $count_key);
-	        add_post_meta($postID, $count_key, '0');
-	        return "0 View";
-	    }
-	    return $count.' Views';
+			$count_key = 'vmw_post_views_count';
+			$count = get_post_meta($postID, $count_key, true);
+			if($count==''){
+					delete_post_meta($postID, $count_key);
+					add_post_meta($postID, $count_key, '0');
+					return "0 View";
+			}
+			return $count.' Views';
 	}
 
 	function vmw_track_post_views ($post_id) {
@@ -211,7 +211,7 @@
 		echo '<li>';
 		previous_posts_link( __( 'Previous', 'vmw' ) );
 		echo '</li>';
-		for($i = $start_page; $i  <= $end_page; $i++) {
+		for($i = $start_page; $i	<= $end_page; $i++) {
 			if($i == $paged) {
 				echo '<li class="current"> '.$i.' </li>';
 			} else {
@@ -231,7 +231,7 @@
 	// Comments
 	function vmw_comment($comment, $args, $depth) {
 
-	   $GLOBALS['comment'] = $comment; ?>
+		 $GLOBALS['comment'] = $comment; ?>
 
 		<li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
 
@@ -247,7 +247,7 @@
 
 					<div class="callout">
 
-						<h5><?php printf( __('%s'), get_comment_author() ) ?>  <small><?php comment_date('d/m/Y'); ?></small></h5>
+						<h5><?php printf( __('%s'), get_comment_author() ) ?>	<small><?php comment_date('d/m/Y'); ?></small></h5>
 
 						<?php if ( $comment->comment_approved == '0' ) : ?>
 
@@ -343,7 +343,7 @@
 	function vmw_post_format_switcher( $hook ) {
 		global $post;
 		if ( $hook == 'post-new.php' || $hook == 'post.php' ) {
-			wp_enqueue_script(  'myscript', get_stylesheet_directory_uri().'/js/post-formats.js' );
+			wp_enqueue_script(	'myscript', get_stylesheet_directory_uri().'/js/post-formats.js' );
 		}
 	}
 	add_action( 'admin_enqueue_scripts', 'vmw_post_format_switcher', 10, 1 );
@@ -355,9 +355,9 @@
 
 	// Word Count
 	function vmw_post_word_count()	{
-	    global $post;
-	    $char_list = '';
-	    echo str_word_count(strip_tags($post->post_content), 0, $char_list);
+			global $post;
+			$char_list = '';
+			echo str_word_count(strip_tags($post->post_content), 0, $char_list);
 	}
 
 	// Show tags with/without links
@@ -385,16 +385,16 @@
 	// Show Excerpt by default
 	add_filter('default_hidden_meta_boxes', 'show_hidden_meta_boxes', 10, 2);
 	function show_hidden_meta_boxes($hidden, $screen) {
-	    if ( 'post' == $screen->base ) {
-	        foreach($hidden as $key=>$value) {
-	            if ('postexcerpt' == $value) {
-	                unset($hidden[$key]);
-	                break;
-	            }
-	        }
-	    }
+			if ( 'post' == $screen->base ) {
+					foreach($hidden as $key=>$value) {
+							if ('postexcerpt' == $value) {
+									unset($hidden[$key]);
+									break;
+							}
+					}
+			}
 
-	    return $hidden;
+			return $hidden;
 	}
 
 	// Custom Login
@@ -491,3 +491,17 @@
 	function custom_dashboard_help() {
 		echo '<p>Featured images for <strong>Posts</strong> should be <strong>1000x563</strong> pixels in size <br>(16x9 aspect ratio).</p><p>Featured images for <strong>Carousels</strong> should be <strong>1680x550</strong> pixels in size.</p>';
 	}
+
+	function disable_emojicons_tinymce( $plugins ) {
+		if ( is_array( $plugins ) ) {
+			return array_diff( $plugins, array( 'wpemoji' ) );
+		} else {
+			return array();
+		}
+	}
+
+	function remove_menus(){
+		remove_menu_page( 'link-manager.php' );
+		remove_menu_page( 'tools.php' );
+	}
+	add_action( 'admin_menu', 'remove_menus' );
